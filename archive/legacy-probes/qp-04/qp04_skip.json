@@ -1,0 +1,7 @@
+{
+  "probe": "QP-04",
+  "status": "SKIPPED_BY_PLAN",
+  "reason": "QP-03 close condition met: combined active-seed LPN rank reaches 4096 quickly (~33 seed-domain groups), zero-influence secret bits = 0 across tested dummy prf_k, AES rows unknowable without full 256-bit prf_k, no public R-core output. Plan: run QP-04 only if QP-03 finds meaningful reduction.",
+  "verdict": "CLOSED",
+  "dependency": "QP-03"
+}

@@ -1,0 +1,7 @@
+seeds=16 domains_per_seed=6 (3R+3noise)
+full_vs_mask127_match=96/96
+full_vs_earlystop127_match=96/96
+note=mask127 zeros ybits/top above 126 after full AES streams (Toeplitz window)
+note=earlystop127 stops LPN after 127 rows (AES stream NOT equivalent for remaining)
+full_prf_core_eq_truncated_127_prf_core=YES
+verdict=PRF_TRUNCATION_EQUIVALENCE_PROVEN

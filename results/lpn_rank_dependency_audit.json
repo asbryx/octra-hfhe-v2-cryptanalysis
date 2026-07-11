@@ -1,0 +1,316 @@
+{
+  "input": {
+    "columns": 4096,
+    "corpus": "local/ct00_l0_s0_pvac_prf_r_1.jsonl",
+    "metadata": "local/lpn_corpus_validation.json",
+    "metadata_entry": "lpn_samples/ct00_l0_s0_pvac_prf_r_1.jsonl",
+    "rows": 16384,
+    "sha256": "c6a29620a6f5927c5bdac25eed3c280a0e52bfdfb2d7f893363f7721f1641920"
+  },
+  "low_weight_dependencies": {
+    "weight_2_exact": [],
+    "weight_3_exact": [],
+    "weight_3_pair_checks": 134209536,
+    "weight_4_exact": null,
+    "weight_4_note": "not executed: full meet-in-the-middle requires C(16384,2)=134209536 pair keys"
+  },
+  "projection_collisions": {
+    "bit_numbering": "little-endian integer from the 512-byte a field",
+    "expected_pair_collisions_uniform": 31.998046875,
+    "noise_note": "projection removes 24 A coordinates, but XORing two samples raises tau from 0.125 to 0.21875",
+    "observed_pair_collisions": 37,
+    "observed_same_y": 22,
+    "windows": [
+      {
+        "best_low_xor_weight": [
+          {
+            "rows": [
+              5409,
+              8587
+            ],
+            "xor_weight": 1975,
+            "y_xor": 1
+          },
+          {
+            "rows": [
+              542,
+              8331
+            ],
+            "xor_weight": 2003,
+            "y_xor": 1
+          },
+          {
+            "rows": [
+              6009,
+              11403
+            ],
+            "xor_weight": 2005,
+            "y_xor": 1
+          },
+          {
+            "rows": [
+              4500,
+              8145
+            ],
+            "xor_weight": 2018,
+            "y_xor": 0
+          },
+          {
+            "rows": [
+              9205,
+              14544
+            ],
+            "xor_weight": 2033,
+            "y_xor": 0
+          }
+        ],
+        "offset": 0,
+        "pair_collisions": 11,
+        "same_y": 5,
+        "width": 24
+      },
+      {
+        "best_low_xor_weight": [
+          {
+            "rows": [
+              2390,
+              6784
+            ],
+            "xor_weight": 1985,
+            "y_xor": 0
+          },
+          {
+            "rows": [
+              14660,
+              16122
+            ],
+            "xor_weight": 1987,
+            "y_xor": 0
+          },
+          {
+            "rows": [
+              3212,
+              10711
+            ],
+            "xor_weight": 2009,
+            "y_xor": 0
+          },
+          {
+            "rows": [
+              4871,
+              10369
+            ],
+            "xor_weight": 2024,
+            "y_xor": 1
+          },
+          {
+            "rows": [
+              5409,
+              12181
+            ],
+            "xor_weight": 2024,
+            "y_xor": 0
+          }
+        ],
+        "offset": 1024,
+        "pair_collisions": 10,
+        "same_y": 8,
+        "width": 24
+      },
+      {
+        "best_low_xor_weight": [
+          {
+            "rows": [
+              336,
+              1491
+            ],
+            "xor_weight": 1967,
+            "y_xor": 1
+          },
+          {
+            "rows": [
+              128,
+              7586
+            ],
+            "xor_weight": 1993,
+            "y_xor": 0
+          },
+          {
+            "rows": [
+              12602,
+              15804
+            ],
+            "xor_weight": 1995,
+            "y_xor": 0
+          },
+          {
+            "rows": [
+              5512,
+              15943
+            ],
+            "xor_weight": 2003,
+            "y_xor": 0
+          },
+          {
+            "rows": [
+              1619,
+              12073
+            ],
+            "xor_weight": 2011,
+            "y_xor": 0
+          }
+        ],
+        "offset": 2048,
+        "pair_collisions": 10,
+        "same_y": 6,
+        "width": 24
+      },
+      {
+        "best_low_xor_weight": [
+          {
+            "rows": [
+              6413,
+              8946
+            ],
+            "xor_weight": 1961,
+            "y_xor": 0
+          },
+          {
+            "rows": [
+              6543,
+              14416
+            ],
+            "xor_weight": 2009,
+            "y_xor": 1
+          },
+          {
+            "rows": [
+              7139,
+              12682
+            ],
+            "xor_weight": 2010,
+            "y_xor": 0
+          },
+          {
+            "rows": [
+              1378,
+              8710
+            ],
+            "xor_weight": 2029,
+            "y_xor": 1
+          },
+          {
+            "rows": [
+              1337,
+              3211
+            ],
+            "xor_weight": 2035,
+            "y_xor": 1
+          }
+        ],
+        "offset": 3072,
+        "pair_collisions": 6,
+        "same_y": 3,
+        "width": 24
+      }
+    ],
+    "xor_2_independent_noise_rate": 0.21875
+  },
+  "rank": {
+    "first_full_rank_at_row_count": 4097,
+    "nullity_rows_A": 12288,
+    "rank_A": 4096,
+    "rank_A_with_y_column": 4097,
+    "trace_every_1024_rows": [
+      {
+        "rank_A": 1024,
+        "rank_Ay": 1024,
+        "rows": 1024
+      },
+      {
+        "rank_A": 2048,
+        "rank_Ay": 2048,
+        "rows": 2048
+      },
+      {
+        "rank_A": 3072,
+        "rank_Ay": 3072,
+        "rows": 3072
+      },
+      {
+        "rank_A": 4095,
+        "rank_Ay": 4095,
+        "rows": 4096
+      },
+      {
+        "rank_A": 4096,
+        "rank_Ay": 4097,
+        "rows": 5120
+      },
+      {
+        "rank_A": 4096,
+        "rank_Ay": 4097,
+        "rows": 6144
+      },
+      {
+        "rank_A": 4096,
+        "rank_Ay": 4097,
+        "rows": 7168
+      },
+      {
+        "rank_A": 4096,
+        "rank_Ay": 4097,
+        "rows": 8192
+      },
+      {
+        "rank_A": 4096,
+        "rank_Ay": 4097,
+        "rows": 9216
+      },
+      {
+        "rank_A": 4096,
+        "rank_Ay": 4097,
+        "rows": 10240
+      },
+      {
+        "rank_A": 4096,
+        "rank_Ay": 4097,
+        "rows": 11264
+      },
+      {
+        "rank_A": 4096,
+        "rank_Ay": 4097,
+        "rows": 12288
+      },
+      {
+        "rank_A": 4096,
+        "rank_Ay": 4097,
+        "rows": 13312
+      },
+      {
+        "rank_A": 4096,
+        "rank_Ay": 4097,
+        "rows": 14336
+      },
+      {
+        "rank_A": 4096,
+        "rank_Ay": 4097,
+        "rows": 15360
+      },
+      {
+        "rank_A": 4096,
+        "rank_Ay": 4097,
+        "rows": 16384
+      }
+    ],
+    "y_in_column_span_of_A": false
+  },
+  "seconds": {
+    "load_and_validate": 0.14215870000771247,
+    "projection": 0.03958499999134801,
+    "rank": 2.0242053999972995,
+    "total": 28.135931199998595,
+    "weight_2": 0.024695800006156787,
+    "weight_3": 25.905286299996078
+  }
+}

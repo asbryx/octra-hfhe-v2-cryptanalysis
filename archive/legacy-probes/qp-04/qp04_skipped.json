@@ -1,0 +1,5 @@
+{
+  "probe": "QP-04",
+  "verdict": "SKIPPED",
+  "reason": "QP-03 found no meaningful secret reduction (rank 4096, zero-influence=0); plan requires QP-04 only if QP-03 promotes"
+}

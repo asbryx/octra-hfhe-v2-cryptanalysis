@@ -1,0 +1,27 @@
+{
+  "verdict": "CLOSED",
+  "mismatch_count": 0,
+  "rows": 22
+}
+OK   sha256:secret.ct: 5da7f82724838bf7a8c4fe95fbf6d573b621c04c9b2f7ae849545cf60223fbab
+OK   sha256:pk.bin: 1e788edff9dea19a782defae053f3757ccf5edd41cd3e24ae44e1496045e9410
+OK   sha256:params.json: 24bf1290b32f6159a95ab5a8428fcd6bd5c91c903efb77defda1bdbdda397d80
+OK   sha256:manifest.json: 0cbda19f5ff723ac2586e769cbf3b26c178066f4ae1602b40a2404e7d99cc18c
+OK   sha256:pk.raw: 67e8538a2a47dfc1539d2777aa36488654b1c92265be08ed941f251a08c2ce28
+OK   canon_tag: 531565633433868593
+OK   H_digest: 601435f4977dd2a0c396bd96c7947fb884b602a52b6d7e0660b3fce3508497f5
+OK   H_digest_recomputed: 601435f4977dd2a0c396bd96c7947fb884b602a52b6d7e0660b3fce3508497f5
+OK   perm_ok: True
+OK   inv_ok: True
+OK   omega_order_ok: True
+OK   powg_ok: True
+OK   H_count: 16384
+OK   H_weight_min: 192
+OK   H_weight_max_in_192_193: 192..193
+OK   pk_trailing: 0
+OK   pk_header: ok
+OK   ztag_match_BASE_layers: 44
+OK   base_layers: 44
+OK   unique_pc: 44
+OK   edges_total: 1829
+OK   params.json_present: True

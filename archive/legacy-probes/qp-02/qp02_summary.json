@@ -1,0 +1,22 @@
+{
+  "probe": "QP-02",
+  "toep_window": {
+    "effective_top_bits": 127,
+    "effective_y_bits": 127,
+    "full_vs_truncated_match_count": "256/256",
+    "scalar_vs_pclmul_match_count": "256/256",
+    "negctrl_flip_bit127_changes": "0/256",
+    "negctrl_flip_bit0_changes": "256/256",
+    "verdict": "TRUNCATION_EQUIVALENCE_PROVEN"
+  },
+  "prf_core": {
+    "seeds": 16,
+    "domains_per_seed": 6,
+    "full_vs_mask127_match": "96/96",
+    "full_vs_earlystop127_match": "96/96",
+    "full_prf_core_eq_truncated_127_prf_core": "YES",
+    "verdict": "PRF_TRUNCATION_EQUIVALENCE_PROVEN"
+  },
+  "meaning_limit": "Reduces LPN transcript work 16384->127 rows per domain, NOT secret dimension 4096.",
+  "overall_verdict": "PROVEN_CONTINUE_TO_QP03"
+}

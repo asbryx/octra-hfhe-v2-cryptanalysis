@@ -1,0 +1,15 @@
+{
+  "probe": "QP-05",
+  "pk_raw_sha256": "67e8538a2a47dfc1539d2777aa36488654b1c92265be08ed941f251a08c2ce28",
+  "active_H_rank": 8192,
+  "left_kernel_dimension": 0,
+  "projected_sigma_bias": null,
+  "rank_seconds": 9.676,
+  "canon_tag": 531565633433868593,
+  "m_bits": 8192,
+  "n_bits": 16384,
+  "h_col_wt": 192,
+  "B": 337,
+  "verdict": "CLOSED",
+  "close_reason": "rank is full 8192; no left kernel; sigma-only structure already closed by CF-T3"
+}

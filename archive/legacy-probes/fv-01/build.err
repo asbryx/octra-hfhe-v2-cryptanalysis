@@ -1,0 +1,29 @@
+In file included from archive/legacy-probes/fv-01/fv01_group_ranking.cpp:18:
+In file included from pvac_hfhe_cpp@071b0e9/include\pvac/pvac.hpp:4:
+pvac_hfhe_cpp@071b0e9/include\pvac/core/config.hpp:9:27: warning: 'getenv' is deprecated: This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. [-Wdeprecated-declarations]
+    9 |     const char * s = std::getenv("PVAC_DBG");
+      |                           ^
+system-toolchain:1183:20: note: 'getenv' has been explicitly marked deprecated here
+ 1183 |     _Check_return_ _CRT_INSECURE_DEPRECATE(_dupenv_s)
+      |                    ^
+system-toolchain:368:55: note: expanded from macro '_CRT_INSECURE_DEPRECATE'
+  368 |         #define _CRT_INSECURE_DEPRECATE(_Replacement) _CRT_DEPRECATE_TEXT(    \
+      |                                                       ^
+system-toolchain:358:47: note: expanded from macro '_CRT_DEPRECATE_TEXT'
+  358 | #define _CRT_DEPRECATE_TEXT(_Text) __declspec(deprecated(_Text))
+      |                                               ^
+In file included from archive/legacy-probes/fv-01/fv01_group_ranking.cpp:18:
+In file included from pvac_hfhe_cpp@071b0e9/include\pvac/pvac.hpp:4:
+pvac_hfhe_cpp@071b0e9/include\pvac/core/config.hpp:10:22: warning: 'getenv' is deprecated: This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. [-Wdeprecated-declarations]
+   10 |     if (!s) s = std::getenv("HFHE_DBG");
+      |                      ^
+system-toolchain:1183:20: note: 'getenv' has been explicitly marked deprecated here
+ 1183 |     _Check_return_ _CRT_INSECURE_DEPRECATE(_dupenv_s)
+      |                    ^
+system-toolchain:368:55: note: expanded from macro '_CRT_INSECURE_DEPRECATE'
+  368 |         #define _CRT_INSECURE_DEPRECATE(_Replacement) _CRT_DEPRECATE_TEXT(    \
+      |                                                       ^
+system-toolchain:358:47: note: expanded from macro '_CRT_DEPRECATE_TEXT'
+  358 | #define _CRT_DEPRECATE_TEXT(_Text) __declspec(deprecated(_Text))
+      |                                               ^
+2 warnings generated.

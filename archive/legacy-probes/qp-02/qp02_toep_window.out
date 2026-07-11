@@ -1,0 +1,8 @@
+effective_top_bits=127
+effective_y_bits=127
+full_vs_truncated_match_count=256/256
+scalar_vs_pclmul_match_count=256/256
+negctrl_flip_bit127_changes=0/256 (expect 0)
+negctrl_flip_bit0_changes=256/256 (expect >0)
+lpn_t=16384 top_words=258 y_words=256
+verdict=TRUNCATION_EQUIVALENCE_PROVEN

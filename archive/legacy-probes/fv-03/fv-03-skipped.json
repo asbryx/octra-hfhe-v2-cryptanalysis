@@ -1,0 +1,5 @@
+{
+  "probe": "FV-03",
+  "verdict": "SKIPPED",
+  "reason": "FV-01 CLOSED: N2/N3 public scorers (sigma, weight, joint) do not materially beat random/index controls (N2 joint-random pct effect≈0.016; N3≈0). No active ranking pass."
+}

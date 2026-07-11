@@ -1,0 +1,242 @@
+{
+  "probe": "QP-06",
+  "pinned_pvac": "071b0e909c119de815e284b347c4bd979cb59ef3",
+  "challenge_commit": "0d08e9622921e5930175a660df0061a65548972f",
+  "rows": [
+    {
+      "field": "sha256:secret.ct",
+      "expected": "5da7f82724838bf7a8c4fe95fbf6d573b621c04c9b2f7ae849545cf60223fbab",
+      "observed": "5da7f82724838bf7a8c4fe95fbf6d573b621c04c9b2f7ae849545cf60223fbab",
+      "match": true,
+      "notes": ""
+    },
+    {
+      "field": "sha256:pk.bin",
+      "expected": "1e788edff9dea19a782defae053f3757ccf5edd41cd3e24ae44e1496045e9410",
+      "observed": "1e788edff9dea19a782defae053f3757ccf5edd41cd3e24ae44e1496045e9410",
+      "match": true,
+      "notes": ""
+    },
+    {
+      "field": "sha256:params.json",
+      "expected": "24bf1290b32f6159a95ab5a8428fcd6bd5c91c903efb77defda1bdbdda397d80",
+      "observed": "24bf1290b32f6159a95ab5a8428fcd6bd5c91c903efb77defda1bdbdda397d80",
+      "match": true,
+      "notes": ""
+    },
+    {
+      "field": "sha256:manifest.json",
+      "expected": "0cbda19f5ff723ac2586e769cbf3b26c178066f4ae1602b40a2404e7d99cc18c",
+      "observed": "0cbda19f5ff723ac2586e769cbf3b26c178066f4ae1602b40a2404e7d99cc18c",
+      "match": true,
+      "notes": ""
+    },
+    {
+      "field": "sha256:pk.raw",
+      "expected": "67e8538a2a47dfc1539d2777aa36488654b1c92265be08ed941f251a08c2ce28",
+      "observed": "67e8538a2a47dfc1539d2777aa36488654b1c92265be08ed941f251a08c2ce28",
+      "match": true,
+      "notes": ""
+    },
+    {
+      "field": "canon_tag",
+      "expected": 531565633433868593,
+      "observed": 531565633433868593,
+      "match": true,
+      "notes": ""
+    },
+    {
+      "field": "H_digest",
+      "expected": "601435f4977dd2a0c396bd96c7947fb884b602a52b6d7e0660b3fce3508497f5",
+      "observed": "601435f4977dd2a0c396bd96c7947fb884b602a52b6d7e0660b3fce3508497f5",
+      "match": true,
+      "notes": ""
+    },
+    {
+      "field": "H_digest_recomputed_match",
+      "expected": true,
+      "observed": true,
+      "match": true,
+      "notes": ""
+    },
+    {
+      "field": "H_count",
+      "expected": 16384,
+      "observed": 16384,
+      "match": true,
+      "notes": ""
+    },
+    {
+      "field": "params.B",
+      "expected": 337,
+      "observed": 337,
+      "match": true,
+      "notes": ""
+    },
+    {
+      "field": "params.lpn",
+      "expected": "4096/16384 1/8",
+      "observed": "4096/16384 1/8",
+      "match": true,
+      "notes": ""
+    },
+    {
+      "field": "UBK_perm_ok",
+      "expected": true,
+      "observed": true,
+      "match": true,
+      "notes": ""
+    },
+    {
+      "field": "UBK_inv_ok",
+      "expected": true,
+      "observed": true,
+      "match": true,
+      "notes": ""
+    },
+    {
+      "field": "omega_order_ok",
+      "expected": true,
+      "observed": true,
+      "match": true,
+      "notes": ""
+    },
+    {
+      "field": "powg_ok",
+      "expected": true,
+      "observed": true,
+      "match": true,
+      "notes": ""
+    },
+    {
+      "field": "H_weight_range_mixed",
+      "expected": "mixed_weight(~192)",
+      "observed": "min=192 max=193 counts={192: 8190, 193: 8194}",
+      "match": true,
+      "notes": "pinned gen_H uses mixed_weight(h_col_wt); not fixed exact 192"
+    },
+    {
+      "field": "pk_trailing",
+      "expected": 0,
+      "observed": 0,
+      "match": true,
+      "notes": ""
+    },
+    {
+      "field": "ct.count",
+      "expected": 22,
+      "observed": 22,
+      "match": true,
+      "notes": ""
+    },
+    {
+      "field": "ct.base_layers",
+      "expected": 44,
+      "observed": 44,
+      "match": true,
+      "notes": ""
+    },
+    {
+      "field": "ct.unique_nonces",
+      "expected": 44,
+      "observed": 44,
+      "match": true,
+      "notes": ""
+    },
+    {
+      "field": "ct.ztag_bad",
+      "expected": 0,
+      "observed": 0,
+      "match": true,
+      "notes": ""
+    },
+    {
+      "field": "ct.edge_count_total",
+      "expected": 1829,
+      "observed": 1829,
+      "match": true,
+      "notes": ""
+    },
+    {
+      "field": "ct.c0_present_all_zero",
+      "expected": "zeros(S) per encrypt.hpp",
+      "observed": "present=22 nonzero=0",
+      "match": true,
+      "notes": "STATUS c0_nonzero=0 means values zero, not absent vector"
+    },
+    {
+      "field": "ct.fp_noncanonical",
+      "expected": 0,
+      "observed": 0,
+      "match": true,
+      "notes": ""
+    },
+    {
+      "field": "ct.trailing",
+      "expected": 0,
+      "observed": 0,
+      "match": true,
+      "notes": ""
+    },
+    {
+      "field": "ct.inner_trailing",
+      "expected": 0,
+      "observed": 0,
+      "match": true,
+      "notes": ""
+    },
+    {
+      "field": "ct.all_slots_one",
+      "expected": true,
+      "observed": true,
+      "match": true,
+      "notes": ""
+    },
+    {
+      "field": "ct.all_two_layers",
+      "expected": true,
+      "observed": true,
+      "match": true,
+      "notes": ""
+    },
+    {
+      "field": "ct.all_pc_one",
+      "expected": true,
+      "observed": true,
+      "match": true,
+      "notes": ""
+    },
+    {
+      "field": "params.json.format",
+      "expected": "octra-hfhe-bounty-v2",
+      "observed": "octra-hfhe-bounty-v2",
+      "match": true,
+      "notes": ""
+    },
+    {
+      "field": "params.json.pubkey_encoding",
+      "expected": "pvac-v3-compressed",
+      "observed": "pvac-v3-compressed",
+      "match": true,
+      "notes": ""
+    },
+    {
+      "field": "params.json.cipher_encoding",
+      "expected": "pvac-v3-length-prefixed-bundle",
+      "observed": "pvac-v3-length-prefixed-bundle",
+      "match": true,
+      "notes": ""
+    },
+    {
+      "field": "params.json.B",
+      "expected": 337,
+      "observed": 337,
+      "match": true,
+      "notes": ""
+    }
+  ],
+  "mismatch_count": 0,
+  "mismatches": [],
+  "verdict": "CLOSED",
+  "close_reason": "All deterministic components match pinned producer; secret PRF unfingerprintable"
+}

@@ -1,0 +1,17 @@
+{
+  "derived_key_changed": 256,
+  "derived_key_hamming": {
+    "max": 153,
+    "mean": 129.58984375,
+    "min": 111
+  },
+  "first_block_changed": 256,
+  "first_block_hamming": {
+    "max": 81,
+    "mean": 63.8515625,
+    "min": 49
+  },
+  "input_bits_tested": 256,
+  "toeplitz_range_overlaps_within_seed": [],
+  "unique_r1_counter_starts": 44
+}

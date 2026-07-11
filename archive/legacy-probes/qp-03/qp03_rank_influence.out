@@ -1,0 +1,5 @@
+phaseA 4096 to_full 33 sec 36.85
+phaseB zero_inf 0 support 4096
+phaseC {'prf_k_index': 0, 'combined_rank': 4096, 'groups_to_full_rank': 33, 'zero_row_influence_bits': 0, 'seconds': 45.041}
+phaseC {'prf_k_index': 1, 'combined_rank': 4096, 'groups_to_full_rank': 33, 'zero_row_influence_bits': 0, 'seconds': 57.017}
+phaseC {'prf_k_index': 2, 'combined_rank': 4096, 'groups_to_full_rank': 33, 'zero_row_influence_bits': 0, 'seconds': 32.913}

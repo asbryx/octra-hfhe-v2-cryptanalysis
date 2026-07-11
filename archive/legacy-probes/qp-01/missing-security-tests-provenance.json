@@ -1,0 +1,71 @@
+{
+  "date_utc": "2026-07-10T19:09:13.330882+00:00",
+  "target_pvac_commit": "071b0e909c119de815e284b347c4bd979cb59ef3",
+  "introduction_commit": "b0813def89db6b4f82dd2cea39f1cfcdc670f9d2",
+  "primary_targets": [
+    "tests/forge_decrypt_payload.cpp",
+    "tests/poc_pc_forge_soundness.cpp",
+    "tests/test_ristretto255.cpp"
+  ],
+  "all_makefile_missing_tests": [
+    "tests/forge_decrypt_payload.cpp",
+    "tests/poc_pc_forge_soundness.cpp",
+    "tests/test_ristretto255.cpp",
+    "tests/test_bound_range.cpp",
+    "tests/test_bound_zero_proof.cpp",
+    "tests/test_ct_geq_sign.cpp",
+    "tests/test_private_transfer.cpp",
+    "tests/test_range_proof.cpp",
+    "tests/test_verify_zero.cpp",
+    "tests/test_zero_proof.cpp"
+  ],
+  "git_path_history_empty": true,
+  "git_path_history_stdout": "",
+  "ref_presence": {
+    "HEAD": [],
+    "b0813def89db6b4f82dd2cea39f1cfcdc670f9d2": [],
+    "refs/remotes/pr/490": [],
+    "refs/remotes/pr/499": [],
+    "refs/remotes/pr/500": []
+  },
+  "pr_heads": [
+    "626c2eb19f06df0ed5da4f6001d8eb7af7c17327\trefs/pull/490/head",
+    "ecae1231b778a69c08f399d8f0a0c2c3c7439563\trefs/pull/499/head",
+    "d3108937cc0f689d6deebe98c0d30dee8a384195\trefs/pull/500/head"
+  ],
+  "archive_b0813_zip_sha256": "6e58ac9576d47e6514f2c7aafc955c995aa451304defeb000c1beb49220a6362",
+  "archive_b0813_primary_hits": [],
+  "archive_b0813_missing_basenames": [
+    "forge_decrypt_payload.cpp",
+    "poc_pc_forge_soundness.cpp",
+    "test_ristretto255.cpp",
+    "test_bound_range.cpp",
+    "test_bound_zero_proof.cpp",
+    "test_ct_geq_sign.cpp",
+    "test_private_transfer.cpp",
+    "test_range_proof.cpp",
+    "test_verify_zero.cpp",
+    "test_zero_proof.cpp"
+  ],
+  "github_code_search_totals": {
+    "filename:poc_pc_forge_soundness.cpp": 0,
+    "filename:forge_decrypt_payload.cpp": 0,
+    "filename:test_ristretto255.cpp": 0,
+    "poc_pc_forge_soundness extension:cpp": 0,
+    "forge_decrypt_payload extension:cpp": 0
+  },
+  "fork_unique_head_file_search": {
+    "checked_heads": 19,
+    "found": []
+  },
+  "makefile_blame_excerpt": "b0813def (d.a. 2026-06-12 21:56:34 +0000 148) $(BUILD)/test_ristretto255: $(TESTS)/test_ristretto255.cpp | $(BUILD)\nb0813def (d.a. 2026-06-12 21:56:34 +0000 149) \t$(CXX) $(CXXFLAGS) -o $@ $<\nb0813def (d.a. 2026-06-12 21:56:34 +0000 150) \nb0813def (d.a. 2026-06-12 21:56:34 +0000 151) $(BUILD)/test_zero_proof: $(TESTS)/test_zero_proof.cpp | $(BUILD)\nb0813def (d.a. 2026-06-12 21:56:34 +0000 152) \t$(CXX) $(CXXFLAGS) -o $@ $<\nb0813def (d.a. 2026-06-12 21:56:34 +0000 153) \nb0813def (d.a. 2026-06-12 21:56:34 +0000 154) $(BUILD)/test_bound_zero_proof: $(TESTS)/test_bound_zero_proof.cpp | $(BUILD)\nb0813def (d.a. 2026-06-12 21:56:34 +0000 155) \t$(CXX) $(CXXFLAGS) -o $@ $<\nb0813def (d.a. 2026-06-12 21:56:34 +0000 156) \nb0813def (d.a. 2026-06-12 21:56:34 +0000 157) $(BUILD)/poc_pc_forge_soundness: $(TESTS)/poc_pc_forge_soundness.cpp | $(BUILD)\nb0813def (d.a. 2026-06-12 21:56:34 +0000 158) \t$(CXX) $(CXXFLAGS) -o $@ $<\nb0813def (d.a. 2026-06-12 21:56:34 +0000 159) \nb0813def (d.a. 2026-06-12 21:56:34 +0000 160) $(BUILD)/forge_decrypt_payload: $(TESTS)/forge_decrypt_payload.cpp | $(BUILD)\nb0813def (d.a. 2026-06-12 21:56:34 +0000 161) \t$(CXX) $(CXXFLAGS) -I../lib/pvac_ffi -o $@ $<\n",
+  "verdict": "CLOSED",
+  "reason": "No public source recovered for primary missing security tests after local history, all PR heads, b0813 zipball archive, GitHub code search (filename+content), and unique-HEAD fork content API checks. Makefile targets introduced in b0813 without corresponding sources ever entering the public tree.",
+  "target_binding": {
+    "source_recovered": false,
+    "ordinary_BASE_path_applicable": null,
+    "works_on_fixed_active_secret_ct": null,
+    "needs_sk": null
+  },
+  "archive_b0813_zip_path": "local-work/pvac-b0813.zip"
+}

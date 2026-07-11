@@ -1,0 +1,21 @@
+harness_perfect_feature_ok=1 n_true=3 n_cand=100
+permuted_label_joint_mean_true_rank=73.00 (n=5)
+trial=0 edges=24 n2_cand=143 n3_cand=2024 n2_true=5 n3_true=2
+trial=1 edges=26 n2_cand=165 n3_cand=2600 n2_true=5 n3_true=1
+
+=== FV-01 SUMMARY trials=200 mean_pairs=463.5 mean_triples=13857.2 ===
+N2_sigma mean_true_rank=266.87 mean_true_pct=0.5033 recall@1=0.0023 @5=0.0094 @10=0.0251 @sqrt=0.0456 n_true=1711
+N2_weight mean_true_rank=260.21 mean_true_pct=0.5149 recall@1=0.0018 @5=0.0088 @10=0.0216 @sqrt=0.0503 n_true=1711
+N2_joint mean_true_rank=260.20 mean_true_pct=0.5147 recall@1=0.0035 @5=0.0146 @10=0.0234 @sqrt=0.0514 n_true=1711
+N2_random mean_true_rank=270.74 mean_true_pct=0.4986 recall@1=0.0041 @5=0.0146 @10=0.0327 @sqrt=0.0532 n_true=1711
+N2_idx_sign mean_true_rank=266.78 mean_true_pct=0.5048 recall@1=0.0029 @5=0.0164 @10=0.0316 @sqrt=0.0538 n_true=1711
+N3_sigma mean_true_rank=8516.06 mean_true_pct=0.4999 recall@1=0.0000 @5=0.0000 @10=0.0012 @sqrt=0.0128 n_true=857
+N3_weight mean_true_rank=8577.91 mean_true_pct=0.4931 recall@1=0.0000 @5=0.0012 @10=0.0023 @sqrt=0.0070 n_true=857
+N3_joint mean_true_rank=8589.73 mean_true_pct=0.4915 recall@1=0.0000 @5=0.0012 @10=0.0035 @sqrt=0.0093 n_true=857
+N3_random mean_true_rank=8853.44 mean_true_pct=0.4917 recall@1=0.0012 @5=0.0012 @10=0.0012 @sqrt=0.0093 n_true=857
+effect_N2_joint_minus_random_pct=0.016140
+effect_N3_joint_minus_random_pct=-0.000197
+exact_partition_rate=0
+wrapped_smoke_n=20 mean_edges=83.80 mean_opp_sign_pair_ub=927.50
+verdict=CLOSED
+labels_excluded_from_features=1

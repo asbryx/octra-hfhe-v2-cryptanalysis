@@ -1,0 +1,20 @@
+{
+  "tx_hash": "ad1af0cf96a12105bb112b0f3f7275e8fbd713e2f6966d886f5ec2c04e514898",
+  "status": "confirmed",
+  "epoch": 1319790,
+  "from": "oct7xCozDD9JEsbeVpo5C7HXp2BJbKqfmNUHmDDCCTtWcGb",
+  "to": "octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ",
+  "amount": "500000",
+  "amount_raw": "500000000000",
+  "nonce": 47683,
+  "ou": "1000",
+  "timestamp": 1783630327.265424,
+  "timestamp_utc": "2026-07-09T20:52:07.265424+00:00",
+  "op_type": "standard",
+  "message": null,
+  "balance": "500000.000001",
+  "account_nonce": 0,
+  "has_public_key": false,
+  "artifact_commit_88a72b7_utc": "2026-07-09T21:08:01+00:00",
+  "note": "funding between early v2 publish (e464 20:33Z) and active artifact (88a72b7 21:08Z); plain transfer, message=null"
+}

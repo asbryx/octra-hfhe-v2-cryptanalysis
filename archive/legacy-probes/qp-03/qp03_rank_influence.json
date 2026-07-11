@@ -1,0 +1,882 @@
+{
+  "probe": "QP-03",
+  "active_seeds": 44,
+  "domains": [
+    "pvac.prf.r.1",
+    "pvac.prf.r.2",
+    "pvac.prf.r.3"
+  ],
+  "rows_per_group": 127,
+  "lpn_n": 4096,
+  "phase_a": {
+    "dummy_prf_k_index": 0,
+    "groups_processed": 132,
+    "final_rank": 4096,
+    "groups_to_full_rank": 33,
+    "rank_trace_every_group": [
+      {
+        "group": 1,
+        "seed_index": 0,
+        "domain": "pvac.prf.r.1",
+        "rank": 127
+      },
+      {
+        "group": 2,
+        "seed_index": 0,
+        "domain": "pvac.prf.r.2",
+        "rank": 254
+      },
+      {
+        "group": 3,
+        "seed_index": 0,
+        "domain": "pvac.prf.r.3",
+        "rank": 381
+      },
+      {
+        "group": 4,
+        "seed_index": 1,
+        "domain": "pvac.prf.r.1",
+        "rank": 508
+      },
+      {
+        "group": 5,
+        "seed_index": 1,
+        "domain": "pvac.prf.r.2",
+        "rank": 635
+      },
+      {
+        "group": 6,
+        "seed_index": 1,
+        "domain": "pvac.prf.r.3",
+        "rank": 762
+      },
+      {
+        "group": 7,
+        "seed_index": 2,
+        "domain": "pvac.prf.r.1",
+        "rank": 889
+      },
+      {
+        "group": 8,
+        "seed_index": 2,
+        "domain": "pvac.prf.r.2",
+        "rank": 1016
+      },
+      {
+        "group": 9,
+        "seed_index": 2,
+        "domain": "pvac.prf.r.3",
+        "rank": 1143
+      },
+      {
+        "group": 10,
+        "seed_index": 3,
+        "domain": "pvac.prf.r.1",
+        "rank": 1270
+      },
+      {
+        "group": 11,
+        "seed_index": 3,
+        "domain": "pvac.prf.r.2",
+        "rank": 1397
+      },
+      {
+        "group": 12,
+        "seed_index": 3,
+        "domain": "pvac.prf.r.3",
+        "rank": 1524
+      },
+      {
+        "group": 13,
+        "seed_index": 4,
+        "domain": "pvac.prf.r.1",
+        "rank": 1651
+      },
+      {
+        "group": 14,
+        "seed_index": 4,
+        "domain": "pvac.prf.r.2",
+        "rank": 1778
+      },
+      {
+        "group": 15,
+        "seed_index": 4,
+        "domain": "pvac.prf.r.3",
+        "rank": 1905
+      },
+      {
+        "group": 16,
+        "seed_index": 5,
+        "domain": "pvac.prf.r.1",
+        "rank": 2032
+      },
+      {
+        "group": 17,
+        "seed_index": 5,
+        "domain": "pvac.prf.r.2",
+        "rank": 2159
+      },
+      {
+        "group": 18,
+        "seed_index": 5,
+        "domain": "pvac.prf.r.3",
+        "rank": 2286
+      },
+      {
+        "group": 19,
+        "seed_index": 6,
+        "domain": "pvac.prf.r.1",
+        "rank": 2413
+      },
+      {
+        "group": 20,
+        "seed_index": 6,
+        "domain": "pvac.prf.r.2",
+        "rank": 2540
+      },
+      {
+        "group": 21,
+        "seed_index": 6,
+        "domain": "pvac.prf.r.3",
+        "rank": 2667
+      },
+      {
+        "group": 22,
+        "seed_index": 7,
+        "domain": "pvac.prf.r.1",
+        "rank": 2794
+      },
+      {
+        "group": 23,
+        "seed_index": 7,
+        "domain": "pvac.prf.r.2",
+        "rank": 2921
+      },
+      {
+        "group": 24,
+        "seed_index": 7,
+        "domain": "pvac.prf.r.3",
+        "rank": 3048
+      },
+      {
+        "group": 25,
+        "seed_index": 8,
+        "domain": "pvac.prf.r.1",
+        "rank": 3175
+      },
+      {
+        "group": 26,
+        "seed_index": 8,
+        "domain": "pvac.prf.r.2",
+        "rank": 3302
+      },
+      {
+        "group": 27,
+        "seed_index": 8,
+        "domain": "pvac.prf.r.3",
+        "rank": 3429
+      },
+      {
+        "group": 28,
+        "seed_index": 9,
+        "domain": "pvac.prf.r.1",
+        "rank": 3556
+      },
+      {
+        "group": 29,
+        "seed_index": 9,
+        "domain": "pvac.prf.r.2",
+        "rank": 3683
+      },
+      {
+        "group": 30,
+        "seed_index": 9,
+        "domain": "pvac.prf.r.3",
+        "rank": 3810
+      },
+      {
+        "group": 31,
+        "seed_index": 10,
+        "domain": "pvac.prf.r.1",
+        "rank": 3937
+      },
+      {
+        "group": 32,
+        "seed_index": 10,
+        "domain": "pvac.prf.r.2",
+        "rank": 4064
+      },
+      {
+        "group": 33,
+        "seed_index": 10,
+        "domain": "pvac.prf.r.3",
+        "rank": 4096
+      },
+      {
+        "group": 34,
+        "seed_index": 11,
+        "domain": "pvac.prf.r.1",
+        "rank": 4096
+      },
+      {
+        "group": 35,
+        "seed_index": 11,
+        "domain": "pvac.prf.r.2",
+        "rank": 4096
+      },
+      {
+        "group": 36,
+        "seed_index": 11,
+        "domain": "pvac.prf.r.3",
+        "rank": 4096
+      },
+      {
+        "group": 37,
+        "seed_index": 12,
+        "domain": "pvac.prf.r.1",
+        "rank": 4096
+      },
+      {
+        "group": 38,
+        "seed_index": 12,
+        "domain": "pvac.prf.r.2",
+        "rank": 4096
+      },
+      {
+        "group": 39,
+        "seed_index": 12,
+        "domain": "pvac.prf.r.3",
+        "rank": 4096
+      },
+      {
+        "group": 40,
+        "seed_index": 13,
+        "domain": "pvac.prf.r.1",
+        "rank": 4096
+      },
+      {
+        "group": 41,
+        "seed_index": 13,
+        "domain": "pvac.prf.r.2",
+        "rank": 4096
+      },
+      {
+        "group": 42,
+        "seed_index": 13,
+        "domain": "pvac.prf.r.3",
+        "rank": 4096
+      },
+      {
+        "group": 43,
+        "seed_index": 14,
+        "domain": "pvac.prf.r.1",
+        "rank": 4096
+      },
+      {
+        "group": 44,
+        "seed_index": 14,
+        "domain": "pvac.prf.r.2",
+        "rank": 4096
+      },
+      {
+        "group": 45,
+        "seed_index": 14,
+        "domain": "pvac.prf.r.3",
+        "rank": 4096
+      },
+      {
+        "group": 46,
+        "seed_index": 15,
+        "domain": "pvac.prf.r.1",
+        "rank": 4096
+      },
+      {
+        "group": 47,
+        "seed_index": 15,
+        "domain": "pvac.prf.r.2",
+        "rank": 4096
+      },
+      {
+        "group": 48,
+        "seed_index": 15,
+        "domain": "pvac.prf.r.3",
+        "rank": 4096
+      },
+      {
+        "group": 49,
+        "seed_index": 16,
+        "domain": "pvac.prf.r.1",
+        "rank": 4096
+      },
+      {
+        "group": 50,
+        "seed_index": 16,
+        "domain": "pvac.prf.r.2",
+        "rank": 4096
+      },
+      {
+        "group": 51,
+        "seed_index": 16,
+        "domain": "pvac.prf.r.3",
+        "rank": 4096
+      },
+      {
+        "group": 52,
+        "seed_index": 17,
+        "domain": "pvac.prf.r.1",
+        "rank": 4096
+      },
+      {
+        "group": 53,
+        "seed_index": 17,
+        "domain": "pvac.prf.r.2",
+        "rank": 4096
+      },
+      {
+        "group": 54,
+        "seed_index": 17,
+        "domain": "pvac.prf.r.3",
+        "rank": 4096
+      },
+      {
+        "group": 55,
+        "seed_index": 18,
+        "domain": "pvac.prf.r.1",
+        "rank": 4096
+      },
+      {
+        "group": 56,
+        "seed_index": 18,
+        "domain": "pvac.prf.r.2",
+        "rank": 4096
+      },
+      {
+        "group": 57,
+        "seed_index": 18,
+        "domain": "pvac.prf.r.3",
+        "rank": 4096
+      },
+      {
+        "group": 58,
+        "seed_index": 19,
+        "domain": "pvac.prf.r.1",
+        "rank": 4096
+      },
+      {
+        "group": 59,
+        "seed_index": 19,
+        "domain": "pvac.prf.r.2",
+        "rank": 4096
+      },
+      {
+        "group": 60,
+        "seed_index": 19,
+        "domain": "pvac.prf.r.3",
+        "rank": 4096
+      },
+      {
+        "group": 61,
+        "seed_index": 20,
+        "domain": "pvac.prf.r.1",
+        "rank": 4096
+      },
+      {
+        "group": 62,
+        "seed_index": 20,
+        "domain": "pvac.prf.r.2",
+        "rank": 4096
+      },
+      {
+        "group": 63,
+        "seed_index": 20,
+        "domain": "pvac.prf.r.3",
+        "rank": 4096
+      },
+      {
+        "group": 64,
+        "seed_index": 21,
+        "domain": "pvac.prf.r.1",
+        "rank": 4096
+      },
+      {
+        "group": 65,
+        "seed_index": 21,
+        "domain": "pvac.prf.r.2",
+        "rank": 4096
+      },
+      {
+        "group": 66,
+        "seed_index": 21,
+        "domain": "pvac.prf.r.3",
+        "rank": 4096
+      },
+      {
+        "group": 67,
+        "seed_index": 22,
+        "domain": "pvac.prf.r.1",
+        "rank": 4096
+      },
+      {
+        "group": 68,
+        "seed_index": 22,
+        "domain": "pvac.prf.r.2",
+        "rank": 4096
+      },
+      {
+        "group": 69,
+        "seed_index": 22,
+        "domain": "pvac.prf.r.3",
+        "rank": 4096
+      },
+      {
+        "group": 70,
+        "seed_index": 23,
+        "domain": "pvac.prf.r.1",
+        "rank": 4096
+      },
+      {
+        "group": 71,
+        "seed_index": 23,
+        "domain": "pvac.prf.r.2",
+        "rank": 4096
+      },
+      {
+        "group": 72,
+        "seed_index": 23,
+        "domain": "pvac.prf.r.3",
+        "rank": 4096
+      },
+      {
+        "group": 73,
+        "seed_index": 24,
+        "domain": "pvac.prf.r.1",
+        "rank": 4096
+      },
+      {
+        "group": 74,
+        "seed_index": 24,
+        "domain": "pvac.prf.r.2",
+        "rank": 4096
+      },
+      {
+        "group": 75,
+        "seed_index": 24,
+        "domain": "pvac.prf.r.3",
+        "rank": 4096
+      },
+      {
+        "group": 76,
+        "seed_index": 25,
+        "domain": "pvac.prf.r.1",
+        "rank": 4096
+      },
+      {
+        "group": 77,
+        "seed_index": 25,
+        "domain": "pvac.prf.r.2",
+        "rank": 4096
+      },
+      {
+        "group": 78,
+        "seed_index": 25,
+        "domain": "pvac.prf.r.3",
+        "rank": 4096
+      },
+      {
+        "group": 79,
+        "seed_index": 26,
+        "domain": "pvac.prf.r.1",
+        "rank": 4096
+      },
+      {
+        "group": 80,
+        "seed_index": 26,
+        "domain": "pvac.prf.r.2",
+        "rank": 4096
+      },
+      {
+        "group": 81,
+        "seed_index": 26,
+        "domain": "pvac.prf.r.3",
+        "rank": 4096
+      },
+      {
+        "group": 82,
+        "seed_index": 27,
+        "domain": "pvac.prf.r.1",
+        "rank": 4096
+      },
+      {
+        "group": 83,
+        "seed_index": 27,
+        "domain": "pvac.prf.r.2",
+        "rank": 4096
+      },
+      {
+        "group": 84,
+        "seed_index": 27,
+        "domain": "pvac.prf.r.3",
+        "rank": 4096
+      },
+      {
+        "group": 85,
+        "seed_index": 28,
+        "domain": "pvac.prf.r.1",
+        "rank": 4096
+      },
+      {
+        "group": 86,
+        "seed_index": 28,
+        "domain": "pvac.prf.r.2",
+        "rank": 4096
+      },
+      {
+        "group": 87,
+        "seed_index": 28,
+        "domain": "pvac.prf.r.3",
+        "rank": 4096
+      },
+      {
+        "group": 88,
+        "seed_index": 29,
+        "domain": "pvac.prf.r.1",
+        "rank": 4096
+      },
+      {
+        "group": 89,
+        "seed_index": 29,
+        "domain": "pvac.prf.r.2",
+        "rank": 4096
+      },
+      {
+        "group": 90,
+        "seed_index": 29,
+        "domain": "pvac.prf.r.3",
+        "rank": 4096
+      },
+      {
+        "group": 91,
+        "seed_index": 30,
+        "domain": "pvac.prf.r.1",
+        "rank": 4096
+      },
+      {
+        "group": 92,
+        "seed_index": 30,
+        "domain": "pvac.prf.r.2",
+        "rank": 4096
+      },
+      {
+        "group": 93,
+        "seed_index": 30,
+        "domain": "pvac.prf.r.3",
+        "rank": 4096
+      },
+      {
+        "group": 94,
+        "seed_index": 31,
+        "domain": "pvac.prf.r.1",
+        "rank": 4096
+      },
+      {
+        "group": 95,
+        "seed_index": 31,
+        "domain": "pvac.prf.r.2",
+        "rank": 4096
+      },
+      {
+        "group": 96,
+        "seed_index": 31,
+        "domain": "pvac.prf.r.3",
+        "rank": 4096
+      },
+      {
+        "group": 97,
+        "seed_index": 32,
+        "domain": "pvac.prf.r.1",
+        "rank": 4096
+      },
+      {
+        "group": 98,
+        "seed_index": 32,
+        "domain": "pvac.prf.r.2",
+        "rank": 4096
+      },
+      {
+        "group": 99,
+        "seed_index": 32,
+        "domain": "pvac.prf.r.3",
+        "rank": 4096
+      },
+      {
+        "group": 100,
+        "seed_index": 33,
+        "domain": "pvac.prf.r.1",
+        "rank": 4096
+      },
+      {
+        "group": 101,
+        "seed_index": 33,
+        "domain": "pvac.prf.r.2",
+        "rank": 4096
+      },
+      {
+        "group": 102,
+        "seed_index": 33,
+        "domain": "pvac.prf.r.3",
+        "rank": 4096
+      },
+      {
+        "group": 103,
+        "seed_index": 34,
+        "domain": "pvac.prf.r.1",
+        "rank": 4096
+      },
+      {
+        "group": 104,
+        "seed_index": 34,
+        "domain": "pvac.prf.r.2",
+        "rank": 4096
+      },
+      {
+        "group": 105,
+        "seed_index": 34,
+        "domain": "pvac.prf.r.3",
+        "rank": 4096
+      },
+      {
+        "group": 106,
+        "seed_index": 35,
+        "domain": "pvac.prf.r.1",
+        "rank": 4096
+      },
+      {
+        "group": 107,
+        "seed_index": 35,
+        "domain": "pvac.prf.r.2",
+        "rank": 4096
+      },
+      {
+        "group": 108,
+        "seed_index": 35,
+        "domain": "pvac.prf.r.3",
+        "rank": 4096
+      },
+      {
+        "group": 109,
+        "seed_index": 36,
+        "domain": "pvac.prf.r.1",
+        "rank": 4096
+      },
+      {
+        "group": 110,
+        "seed_index": 36,
+        "domain": "pvac.prf.r.2",
+        "rank": 4096
+      },
+      {
+        "group": 111,
+        "seed_index": 36,
+        "domain": "pvac.prf.r.3",
+        "rank": 4096
+      },
+      {
+        "group": 112,
+        "seed_index": 37,
+        "domain": "pvac.prf.r.1",
+        "rank": 4096
+      },
+      {
+        "group": 113,
+        "seed_index": 37,
+        "domain": "pvac.prf.r.2",
+        "rank": 4096
+      },
+      {
+        "group": 114,
+        "seed_index": 37,
+        "domain": "pvac.prf.r.3",
+        "rank": 4096
+      },
+      {
+        "group": 115,
+        "seed_index": 38,
+        "domain": "pvac.prf.r.1",
+        "rank": 4096
+      },
+      {
+        "group": 116,
+        "seed_index": 38,
+        "domain": "pvac.prf.r.2",
+        "rank": 4096
+      },
+      {
+        "group": 117,
+        "seed_index": 38,
+        "domain": "pvac.prf.r.3",
+        "rank": 4096
+      },
+      {
+        "group": 118,
+        "seed_index": 39,
+        "domain": "pvac.prf.r.1",
+        "rank": 4096
+      },
+      {
+        "group": 119,
+        "seed_index": 39,
+        "domain": "pvac.prf.r.2",
+        "rank": 4096
+      },
+      {
+        "group": 120,
+        "seed_index": 39,
+        "domain": "pvac.prf.r.3",
+        "rank": 4096
+      },
+      {
+        "group": 121,
+        "seed_index": 40,
+        "domain": "pvac.prf.r.1",
+        "rank": 4096
+      },
+      {
+        "group": 122,
+        "seed_index": 40,
+        "domain": "pvac.prf.r.2",
+        "rank": 4096
+      },
+      {
+        "group": 123,
+        "seed_index": 40,
+        "domain": "pvac.prf.r.3",
+        "rank": 4096
+      },
+      {
+        "group": 124,
+        "seed_index": 41,
+        "domain": "pvac.prf.r.1",
+        "rank": 4096
+      },
+      {
+        "group": 125,
+        "seed_index": 41,
+        "domain": "pvac.prf.r.2",
+        "rank": 4096
+      },
+      {
+        "group": 126,
+        "seed_index": 41,
+        "domain": "pvac.prf.r.3",
+        "rank": 4096
+      },
+      {
+        "group": 127,
+        "seed_index": 42,
+        "domain": "pvac.prf.r.1",
+        "rank": 4096
+      },
+      {
+        "group": 128,
+        "seed_index": 42,
+        "domain": "pvac.prf.r.2",
+        "rank": 4096
+      },
+      {
+        "group": 129,
+        "seed_index": 42,
+        "domain": "pvac.prf.r.3",
+        "rank": 4096
+      },
+      {
+        "group": 130,
+        "seed_index": 43,
+        "domain": "pvac.prf.r.1",
+        "rank": 4096
+      },
+      {
+        "group": 131,
+        "seed_index": 43,
+        "domain": "pvac.prf.r.2",
+        "rank": 4096
+      },
+      {
+        "group": 132,
+        "seed_index": 43,
+        "domain": "pvac.prf.r.3",
+        "rank": 4096
+      }
+    ],
+    "seconds": 32.797
+  },
+  "phase_b": {
+    "combined_row_rank": 4096,
+    "lpn_bits_with_zero_row_influence": 0,
+    "lpn_bits_with_zero_output_influence": 0,
+    "support_bits": 4096,
+    "seconds": 0
+  },
+  "phase_c": [
+    {
+      "prf_k_index": 0,
+      "combined_rank": 4096,
+      "groups_to_full_rank": 33,
+      "zero_row_influence_bits": 0,
+      "seconds": 33.872
+    },
+    {
+      "prf_k_index": 1,
+      "combined_rank": 4096,
+      "groups_to_full_rank": 33,
+      "zero_row_influence_bits": 0,
+      "seconds": 31.658
+    },
+    {
+      "prf_k_index": 2,
+      "combined_rank": 4096,
+      "groups_to_full_rank": 33,
+      "zero_row_influence_bits": 0,
+      "seconds": 35.42
+    },
+    {
+      "prf_k_index": 3,
+      "combined_rank": 4096,
+      "groups_to_full_rank": 33,
+      "zero_row_influence_bits": 0,
+      "seconds": 33.555
+    },
+    {
+      "prf_k_index": 4,
+      "combined_rank": 4096,
+      "groups_to_full_rank": 33,
+      "zero_row_influence_bits": 0,
+      "seconds": 46.126
+    },
+    {
+      "prf_k_index": 5,
+      "combined_rank": 4096,
+      "groups_to_full_rank": 33,
+      "zero_row_influence_bits": 0,
+      "seconds": 38.328
+    },
+    {
+      "prf_k_index": 6,
+      "combined_rank": 4096,
+      "groups_to_full_rank": 33,
+      "zero_row_influence_bits": 0,
+      "seconds": 36.243
+    },
+    {
+      "prf_k_index": 7,
+      "combined_rank": 4096,
+      "groups_to_full_rank": 33,
+      "zero_row_influence_bits": 0,
+      "seconds": 33.41
+    }
+  ],
+  "decision": {
+    "promote_to_solver": false,
+    "reason": "rank reaches 4096 by group ~33; zero-influence bits=0 across 8 keys; AES rows require full 256-bit prf_k; no public R-core",
+    "verdict": "CLOSED"
+  }
+}

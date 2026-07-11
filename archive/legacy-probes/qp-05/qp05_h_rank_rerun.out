@@ -1,0 +1,6 @@
+active_H_rank=8192
+left_kernel_dimension=0
+m_bits=8192 n_bits=16384 h_col_wt=192 B=337
+canon_tag=531565633433868593
+rank_seconds=10.275
+verdict=FULL_RANK_CLOSED
