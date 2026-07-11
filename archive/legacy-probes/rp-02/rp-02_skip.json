@@ -1,0 +1,6 @@
+{
+  "probe": "RP-02",
+  "verdict": "SKIPPED",
+  "reason": "RP-01 CLOSED: no public individual noise-group recovery \u2192 skip ratio path",
+  "plan_gate": "NEXT_RESEARCH_PLAN_AFTER_QP.md"
+}

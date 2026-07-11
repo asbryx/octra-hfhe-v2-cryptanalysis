@@ -1,0 +1,12 @@
+{
+  "active_layers": 44,
+  "opposite_sign_pairs_min": 98,
+  "opposite_sign_pairs_max": 928,
+  "opposite_sign_pairs_mean": 460.1363636363636,
+  "opposite_sign_pairs_total": 20246,
+  "distinct_idx_edge_triples_min": 1330,
+  "distinct_idx_edge_triples_max": 35990,
+  "distinct_idx_edge_triples_mean": 13857.977272727272,
+  "distinct_idx_edge_triples_total": 609751,
+  "note": "no labels on active wire; counts are candidate space only"
+}

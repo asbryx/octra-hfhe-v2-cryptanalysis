@@ -1,0 +1,74 @@
+[
+  {
+    "label": "nxpath/hfhe-challenge",
+    "repo": "nxpath/hfhe-challenge",
+    "sha": "8a8df807bc12858a3076eb2d026f5d0ed1f2eceb",
+    "secret.ct": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "secret.ct_active_match": false,
+    "pk.bin": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "pk.bin_active_match": false
+  },
+  {
+    "label": "Eienel/hfhe-challenge-eienel",
+    "repo": "Eienel/hfhe-challenge-eienel",
+    "sha": "80317a318d1c225b08df8fb04996b074cf3d6497",
+    "secret.ct": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "secret.ct_active_match": false,
+    "pk.bin": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "pk.bin_active_match": false
+  },
+  {
+    "label": "Yanu403/hfhe-challenge",
+    "repo": "Yanu403/hfhe-challenge",
+    "sha": "5e25d305429d3efbb4a11a6d0748f0fd99f8d57d",
+    "secret.ct": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "secret.ct_active_match": false,
+    "pk.bin": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "pk.bin_active_match": false
+  },
+  {
+    "label": "pymparticles/hfhe-challenge",
+    "repo": "pymparticles/hfhe-challenge",
+    "sha": "6d845e07f82ce924868ddac849ba92277150cfd9",
+    "secret.ct": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "secret.ct_active_match": false,
+    "pk.bin": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "pk.bin_active_match": false
+  },
+  {
+    "label": "Instantfutures/hfhe-challenge",
+    "repo": "Instantfutures/hfhe-challenge",
+    "sha": "25ab0aaee0f53438c999ac46799fb02fdbc0bacf",
+    "secret.ct": "err:Command '['gh', 'api', 'repos/Instantfutures/hfhe-challenge/contents/secret.ct?ref=25ab0aaee0f53438c999ac46799fb02fdbc0bacf', '--jq', '.content']' returned non-zero exit status 1.",
+    "secret.ct_active_match": null,
+    "pk.bin": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "pk.bin_active_match": false
+  },
+  {
+    "label": "syt4sh1/hfhe-challenge",
+    "repo": "syt4sh1/hfhe-challenge",
+    "sha": "900255d11fabe64292b1626f1c681bd2d6044136",
+    "secret.ct": "err:Command '['gh', 'api', 'repos/syt4sh1/hfhe-challenge/contents/secret.ct?ref=900255d11fabe64292b1626f1c681bd2d6044136', '--jq', '.content']' returned non-zero exit status 1.",
+    "secret.ct_active_match": null,
+    "pk.bin": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "pk.bin_active_match": false
+  },
+  {
+    "label": "pr4-nxpath",
+    "repo": "nxpath/hfhe-challenge",
+    "sha": "3cdab3379f7c72cd9d85e67c88da84d5d05f5bd8",
+    "secret.ct": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "secret.ct_active_match": false,
+    "pk.bin": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "pk.bin_active_match": false
+  },
+  {
+    "label": "pr3-ifeoluwaaj",
+    "repo": "ifeoluwaaj/hfhe-challenge",
+    "sha": "c452ea0b8134aa6fdd0a09b1c05a9dae3fe94fa4",
+    "secret.ct": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "secret.ct_active_match": false,
+    "pk.bin": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "pk.bin_active_match": false
+  }
+]

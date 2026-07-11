@@ -1,0 +1,6 @@
+{
+  "probe": "RP-05",
+  "verdict": "SKIPPED",
+  "reason": "RP-02/RP-03 no candidate family",
+  "plan_gate": "NEXT_RESEARCH_PLAN_AFTER_QP.md"
+}

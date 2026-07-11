@@ -1,0 +1,5 @@
+{
+  "probe": "RR-02",
+  "verdict": "SKIPPED",
+  "reason": "RR-01 CLOSED: public baselines do not beat random control; candidate spaces large; no unique/small public partition of N2/N3 groups."
+}

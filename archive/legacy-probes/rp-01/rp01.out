@@ -1,0 +1,38 @@
+BUDGET_SNIPPET:
+ static Budget compute(const Params& p, int d) {
+        double cap = p.noise_entropy_bits + p.depth_slope_bits * std::max(0, d);
+        double c2 = 2.0 * std::log2(static_cast<double>(p.B));
+        double c3 = 3.0 * std::log2(static_cast<double>(p.B));
+
+        int q2 = std::max(0, static_cast<int>(std::floor(cap * p.tuple2_fraction / std::max(1e
+{
+  "probe": "RP-01",
+  "B": 337,
+  "trials": 41,
+  "mean_merge_collision_rate": 0.02180831336845914,
+  "mean_n2_pure_key_rate": 0.917617883471542,
+  "mean_n3_pure_key_rate": 0.837253193960511,
+  "mean_opposite_sign_pair_candidates": 304.5609756097561,
+  "public_group_recovery_possible": false,
+  "exact_group_recovery_rate_public_only": 0.0,
+  "candidate_partitions_per_layer": "combinatorial (no public filter)",
+  "precision_N2_public": 0.0,
+  "precision_N3_public": 0.0,
+  "serialized_order_information": 0.0,
+  "source_facts": {
+    "merge_key": "(layer_id, idx, sign) \u2014 weight add, sigma XOR",
+    "permute": "Fisher-Yates with csprng_u64 / SeedableRng",
+    "N2_public_invariant": "sa = sb XOR 1, distinct idx \u2014 necessary but far from sufficient",
+    "N3_public_invariant": "3 distinct idx \u2014 necessary but insufficient",
+    "weight_relation": "needs unknown R and delta_g"
+  },
+  "verdict": "CLOSED",
+  "close_reason": "Final shuffle is CSPRNG-uniform; merge destroys multi-group keys; remaining pure edges have no public group ID; algebraic pairing needs R*delta. Candidate partitions combinatorial large. No exact public reconstruction of individual noise groups.",
+  "applicability_to_active": "Active wire has only layer/idx/sign/weight/sigma/order; same transforms. CF-T3 already: perfect signal/noise still leaves unknown R. RP-01 shows individual N2/N3 groups also not recoverable.",
+  "active_like_depth2_budget": {
+    "n2": 5,
+    "n3": 2
+  }
+}
+wrote archive/legacy-probes\rp-01\rp01_group_retention.json
+sha256 4ce38932f22cf4fa7603ff6b4ba2de415cc55018f06a10e6c3d2ca60d168e444

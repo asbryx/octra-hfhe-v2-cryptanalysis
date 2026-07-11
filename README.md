@@ -95,7 +95,7 @@ research/final-exhaustion.md     Full corpus and mathematical boundary report
 docs/smoke-ui-comparison.md      Comparison with the smoke-ui assessment
 tools/                           Small runnable probes
 results/                         Committed measured JSON outputs
-archive/                         Historical phase reports and 50 legacy probe/source/result files
+archive/                         Historical phase reports and 93 legacy probe/source/result files
 SHA256SUMS                       Integrity manifest for this repository
 ```
 
@@ -108,6 +108,7 @@ Python 3.11+ is recommended.
 ```bash
 python -m pip install -r requirements.txt
 python tools/validate_lpn_corpus.py
+python tools/check_finite_prf_candidates.py path/to/ct00_l0_s0_pvac_prf_r_1.jsonl
 python tools/lpn_restricted_ladder.py --model-only
 python tools/lpn_restricted_ladder.py
 python tools/heuristic_ladder.py --is-only --sizes 8,12,16,20,24,28,32

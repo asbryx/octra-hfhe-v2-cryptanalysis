@@ -1,0 +1,152 @@
+[
+  {
+    "repo": "nxpath/hfhe-challenge",
+    "sha": "3cdab3379f7c72cd9d85e67c88da84d5d05f5bd8",
+    "interesting_paths": [
+      "manifest.json",
+      "params.json",
+      "pk.bin",
+      "secret.ct"
+    ],
+    "secret.ct": {
+      "sha256": "5da7f82724838bf7a8c4fe95fbf6d573b621c04c9b2f7ae849545cf60223fbab",
+      "size": 1963107,
+      "active_match": true
+    },
+    "pk.bin": {
+      "sha256": "1e788edff9dea19a782defae053f3757ccf5edd41cd3e24ae44e1496045e9410",
+      "size": 3042901,
+      "active_match": true
+    },
+    "params.json": {
+      "sha256": "28ea07666fa34935cfa4f46efe96548ee6c9879dcea2c4b10a57b6da95b8c559",
+      "size": 527,
+      "active_match": false
+    },
+    "manifest.json": {
+      "sha256": "97d76005f0f8ffbcc4f04244da43fecfef53811cb24a2bea2d423cd77e594a42",
+      "size": 750,
+      "active_match": false
+    }
+  },
+  {
+    "repo": "nxpath/hfhe-challenge",
+    "sha": "8a8df807bc12858a3076eb2d026f5d0ed1f2eceb",
+    "interesting_paths": [
+      "manifest.json",
+      "params.json",
+      "pk.bin",
+      "secret.ct"
+    ],
+    "secret.ct": {
+      "sha256": "5da7f82724838bf7a8c4fe95fbf6d573b621c04c9b2f7ae849545cf60223fbab",
+      "size": 1963107,
+      "active_match": true
+    },
+    "pk.bin": {
+      "sha256": "1e788edff9dea19a782defae053f3757ccf5edd41cd3e24ae44e1496045e9410",
+      "size": 3042901,
+      "active_match": true
+    },
+    "params.json": {
+      "sha256": "28ea07666fa34935cfa4f46efe96548ee6c9879dcea2c4b10a57b6da95b8c559",
+      "size": 527,
+      "active_match": false
+    },
+    "manifest.json": {
+      "sha256": "97d76005f0f8ffbcc4f04244da43fecfef53811cb24a2bea2d423cd77e594a42",
+      "size": 750,
+      "active_match": false
+    }
+  },
+  {
+    "repo": "Eienel/hfhe-challenge-eienel",
+    "sha": "80317a318d1c225b08df8fb04996b074cf3d6497",
+    "interesting_paths": [
+      "manifest.json",
+      "params.json",
+      "pk.bin",
+      "secret.ct"
+    ],
+    "secret.ct": {
+      "sha256": "5da7f82724838bf7a8c4fe95fbf6d573b621c04c9b2f7ae849545cf60223fbab",
+      "size": 1963107,
+      "active_match": true
+    },
+    "pk.bin": {
+      "sha256": "1e788edff9dea19a782defae053f3757ccf5edd41cd3e24ae44e1496045e9410",
+      "size": 3042901,
+      "active_match": true
+    },
+    "params.json": {
+      "sha256": "28ea07666fa34935cfa4f46efe96548ee6c9879dcea2c4b10a57b6da95b8c559",
+      "size": 527,
+      "active_match": false
+    },
+    "manifest.json": {
+      "sha256": "97d76005f0f8ffbcc4f04244da43fecfef53811cb24a2bea2d423cd77e594a42",
+      "size": 750,
+      "active_match": false
+    }
+  },
+  {
+    "repo": "ifeoluwaaj/hfhe-challenge",
+    "sha": "c452ea0b8134aa6fdd0a09b1c05a9dae3fe94fa4",
+    "interesting_paths": [
+      "manifest.json",
+      "params.json",
+      "pk.bin",
+      "secret.ct"
+    ],
+    "secret.ct": {
+      "sha256": "5da7f82724838bf7a8c4fe95fbf6d573b621c04c9b2f7ae849545cf60223fbab",
+      "size": 1963107,
+      "active_match": true
+    },
+    "pk.bin": {
+      "sha256": "1e788edff9dea19a782defae053f3757ccf5edd41cd3e24ae44e1496045e9410",
+      "size": 3042901,
+      "active_match": true
+    },
+    "params.json": {
+      "sha256": "28ea07666fa34935cfa4f46efe96548ee6c9879dcea2c4b10a57b6da95b8c559",
+      "size": 527,
+      "active_match": false
+    },
+    "manifest.json": {
+      "sha256": "97d76005f0f8ffbcc4f04244da43fecfef53811cb24a2bea2d423cd77e594a42",
+      "size": 750,
+      "active_match": false
+    }
+  },
+  {
+    "repo": "Yanu403/hfhe-challenge",
+    "sha": "5e25d305429d3efbb4a11a6d0748f0fd99f8d57d",
+    "interesting_paths": [
+      "manifest.json",
+      "params.json",
+      "pk.bin",
+      "secret.ct"
+    ],
+    "secret.ct": {
+      "sha256": "5da7f82724838bf7a8c4fe95fbf6d573b621c04c9b2f7ae849545cf60223fbab",
+      "size": 1963107,
+      "active_match": true
+    },
+    "pk.bin": {
+      "sha256": "1e788edff9dea19a782defae053f3757ccf5edd41cd3e24ae44e1496045e9410",
+      "size": 3042901,
+      "active_match": true
+    },
+    "params.json": {
+      "sha256": "28ea07666fa34935cfa4f46efe96548ee6c9879dcea2c4b10a57b6da95b8c559",
+      "size": 527,
+      "active_match": false
+    },
+    "manifest.json": {
+      "sha256": "97d76005f0f8ffbcc4f04244da43fecfef53811cb24a2bea2d423cd77e594a42",
+      "size": 750,
+      "active_match": false
+    }
+  }
+]

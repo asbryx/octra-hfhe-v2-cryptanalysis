@@ -1,0 +1,53 @@
+{
+  "probe": "RP-06",
+  "has_seeded_api": true,
+  "has_seedable_rng": false,
+  "o0_o3_toep": {
+    "-O0": {
+      "stdout": "effective_top_bits=127\neffective_y_bits=127\nfull_vs_truncated_match_count=256/256\nscalar_vs_pclmul_match_count=0/0\nnegctrl_flip_bit127_changes=0/256 (expect 0)\nnegctrl_flip_bit0_changes=256/256 (expect >0)\nlpn_t=16384 top_words=258 y_words=256\nverdict=TRUNCATION_EQUIVALENCE_PROVEN\n",
+      "code": 0
+    },
+    "-O3": {
+      "stdout": "effective_top_bits=127\neffective_y_bits=127\nfull_vs_truncated_match_count=256/256\nscalar_vs_pclmul_match_count=256/256\nnegctrl_flip_bit127_changes=0/256 (expect 0)\nnegctrl_flip_bit0_changes=256/256 (expect >0)\nlpn_t=16384 top_words=258 y_words=256\nverdict=TRUNCATION_EQUIVALENCE_PROVEN\n",
+      "code": 0
+    }
+  },
+  "toep_outputs_identical": false,
+  "prf_trunc_rerun": [
+    "seeds=16 domains_per_seed=6 (3R+3noise)",
+    "full_vs_mask127_match=96/96",
+    "full_vs_earlystop127_match=96/96",
+    "note=mask127 zeros ybits/top above 126 after full AES streams (Toeplitz window)",
+    "note=earlystop127 stops LPN after 127 rows (AES stream NOT equivalent for remaining)",
+    "full_prf_core_eq_truncated_127_prf_core=YES",
+    "verdict=PRF_TRUNCATION_EQUIVALENCE_PROVEN"
+  ],
+  "prf_trunc_eq": true,
+  "verdict": "CLOSED",
+  "close_reason": "O0 vs O3 toep functional outputs identical (truncation/negctrl); only pclmul availability line differs without -mpclmul on O0; PRF trunc equivalence stable. No semantic seeded-path divergence found.",
+  "source_impl_selection": "select_toeplitz benches pclmul/pmull/scalar; functional equality required",
+  "applicability_to_active": "Active artifact produced once; no dual-build divergence evidence. If producer used standard clang -O2 -march=native, outputs determined by CSPRNG keygen.",
+  "semantic_compare": {
+    "O0": {
+      "effective_top_bits": "127",
+      "effective_y_bits": "127",
+      "full_vs_truncated_match_count": "256/256",
+      "negctrl_flip_bit127_changes": "0/256 (expect 0)",
+      "negctrl_flip_bit0_changes": "256/256 (expect >0)",
+      "lpn_t": "16384 top_words=258 y_words=256",
+      "verdict": "TRUNCATION_EQUIVALENCE_PROVEN"
+    },
+    "O3": {
+      "effective_top_bits": "127",
+      "effective_y_bits": "127",
+      "full_vs_truncated_match_count": "256/256",
+      "negctrl_flip_bit127_changes": "0/256 (expect 0)",
+      "negctrl_flip_bit0_changes": "256/256 (expect >0)",
+      "lpn_t": "16384 top_words=258 y_words=256",
+      "verdict": "TRUNCATION_EQUIVALENCE_PROVEN"
+    },
+    "equal": true
+  },
+  "toep_semantic_identical": true,
+  "note_pclmul": "O0 build without -mpclmul reports scalar_vs_pclmul 0/0; functional truncation lines match O3"
+}

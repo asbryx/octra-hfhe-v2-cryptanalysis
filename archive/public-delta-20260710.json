@@ -1,0 +1,18 @@
+{
+  "date": "2026-07-11",
+  "old_fork_count": 22,
+  "current_fork_count": 26,
+  "new_forks": [
+    "akidry/hfhe-challenge",
+    "ifeoluwaaj/hfhe-challenge",
+    "JH-321/hfhe-challenge-1",
+    "k3llgh/hfhe-challenge"
+  ],
+  "new_unique_commits": 0,
+  "new_unique_blobs_active_bound": 0,
+  "active_pk": "1e788edff9dea19a782defae053f3757ccf5edd41cd3e24ae44e1496045e9410",
+  "active_ct": "5da7f82724838bf7a8c4fe95fbf6d573b621c04c9b2f7ae849545cf60223fbab",
+  "all_new_forks_head": "0d08e9622921e5930175a660df0061a65548972f",
+  "all_new_forks_pk_ct_match_active": true,
+  "notes": "ifeoluwaaj has open PR #3 analysis-only (same as Eienel-class docs)"
+}

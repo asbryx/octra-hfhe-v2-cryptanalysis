@@ -1,0 +1,13 @@
+template,source,len_min,len_max,fits_301_315,notes
+wallet-gen txt export (server.ts),wallet-gen HEAD,637,656,0,full mnemonic+keys+headers; always >315
+bounty3 seed string,bounty3_data README,90,110,0,"mnemonic: 12w, number: N — far below band"
+json min mnemonic+addr,synthetic,140,160,0,
+json full mn+priv+pub+addr,synthetic,270,290,0,near band but typically <301
+mnemonic only,synthetic,70,100,0,
+hex priv + addr,synthetic,110,120,0,
+b64 priv + addr,synthetic,90,100,0,
+instr + key short,synthetic,150,170,0,
+custom instr+mn+keys (padded),synthetic,301,315,1,can fit with free-form instructions; unknown field is full entropy key/mnemonic
+official wallet txt + trim,wallet-gen,637,656,0,cannot fit without removing fields
+24w mnemonic block,synthetic,250,320,1,possible with short headers; still full 256-bit entropy
+README wording only,challenge README,0,0,0,describes private key + metadata; no exact schema

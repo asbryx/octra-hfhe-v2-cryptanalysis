@@ -90,7 +90,7 @@ Corrected ct hash `5da7…` (not eienel typo `5da3…`).
 | short json/key dumps | <300 | usually no |
 | free-form + pad | can | yes but full entropy remains |
 
-`payload-template-matrix.csv`
+`payload-template-matrix.csv` (retained as `archive/payload-template-matrix.csv`)
 
 ## NP-05 — wallet provenance
 **CLOSED.** wallet-gen uses `crypto.randomBytes`; stock export ≠ active length; no public demo seed path.

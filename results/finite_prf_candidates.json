@@ -1,0 +1,13 @@
+{
+  "candidates": 99,
+  "checks": 1188,
+  "hits": [],
+  "layouts_checked": [
+    "raw",
+    "reverse_all",
+    "reverse_each_u64",
+    "reverse_word_order"
+  ],
+  "routes_per_candidate": 3,
+  "sample": "ct00_l0_s0_pvac_prf_r_1.jsonl"
+}

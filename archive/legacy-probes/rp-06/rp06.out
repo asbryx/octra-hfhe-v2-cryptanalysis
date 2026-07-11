@@ -1,0 +1,31 @@
+{
+  "probe": "RP-06",
+  "has_seeded_api": true,
+  "has_seedable_rng": false,
+  "o0_o3_toep": {
+    "-O0": {
+      "stdout": "effective_top_bits=127\neffective_y_bits=127\nfull_vs_truncated_match_count=256/256\nscalar_vs_pclmul_match_count=0/0\nnegctrl_flip_bit127_changes=0/256 (expect 0)\nnegctrl_flip_bit0_changes=256/256 (expect >0)\nlpn_t=16384 top_words=258 y_words=256\nverdict=TRUNCATION_EQUIVALENCE_PROVEN\n",
+      "code": 0
+    },
+    "-O3": {
+      "stdout": "effective_top_bits=127\neffective_y_bits=127\nfull_vs_truncated_match_count=256/256\nscalar_vs_pclmul_match_count=256/256\nnegctrl_flip_bit127_changes=0/256 (expect 0)\nnegctrl_flip_bit0_changes=256/256 (expect >0)\nlpn_t=16384 top_words=258 y_words=256\nverdict=TRUNCATION_EQUIVALENCE_PROVEN\n",
+      "code": 0
+    }
+  },
+  "toep_outputs_identical": false,
+  "prf_trunc_rerun": [
+    "seeds=16 domains_per_seed=6 (3R+3noise)",
+    "full_vs_mask127_match=96/96",
+    "full_vs_earlystop127_match=96/96",
+    "note=mask127 zeros ybits/top above 126 after full AES streams (Toeplitz window)",
+    "note=earlystop127 stops LPN after 127 rows (AES stream NOT equivalent for remaining)",
+    "full_prf_core_eq_truncated_127_prf_core=YES",
+    "verdict=PRF_TRUNCATION_EQUIVALENCE_PROVEN"
+  ],
+  "prf_trunc_eq": true,
+  "verdict": "PROMISING",
+  "close_reason": "O0 vs O3 outputs differ \u2014 investigate",
+  "source_impl_selection": "select_toeplitz benches pclmul/pmull/scalar; functional equality required",
+  "applicability_to_active": "Active artifact produced once; no dual-build divergence evidence. If producer used standard clang -O2 -march=native, outputs determined by CSPRNG keygen."
+}
+sha256 b8dc861928425bd37923e750c22f75fa01a4cb00c73f7b52d61bdb6871e016da

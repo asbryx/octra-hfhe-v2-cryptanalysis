@@ -791,11 +791,11 @@ Observed result:
 - short json/key dumps: typically <300
 - free-form instruction + mn/key blocks CAN be padded into 301–315, but unknown remains full-entropy mnemonic/key
 - README only says "private key and metadata" — no schema
-- matrix: repository-root/payload-template-matrix.csv
+- matrix: archive/payload-template-matrix.csv
 Independent verification: python length measurements + wallet-gen server.ts template
 Verdict: CLOSED (format knowledge does not reduce to searchable space)
 Reproduction command: see payload-template-matrix.csv
-Output digest/path: repository-root/payload-template-matrix.csv
+Output digest/path: archive/payload-template-matrix.csv
 Next dependency: none for format-only; NP-05 only if external statement names exact generator path
 
 ## Next Finding NP-05

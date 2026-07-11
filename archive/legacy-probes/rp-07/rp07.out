@@ -1,0 +1,37 @@
+{
+  "probe": "RP-07",
+  "date_utc": "2026-07-10T21:29:57.608657+00:00",
+  "anchors": {
+    "challenge_HEAD": "0d08e9622921e5930175a660df0061a65548972f",
+    "challenge_forks": 26,
+    "challenge_PRs_all": 4,
+    "PVAC_HEAD": "071b0e909c119de815e284b347c4bd979cb59ef3",
+    "PVAC_open_PRs": 2,
+    "PVAC_open_issues": [
+      501,
+      502,
+      503
+    ]
+  },
+  "observed": {
+    "challenge_HEAD": "0d08e9622921e5930175a660df0061a65548972f",
+    "challenge_forks": 26,
+    "challenge_PRs_all": 4,
+    "PVAC_HEAD": "071b0e909c119de815e284b347c4bd979cb59ef3",
+    "PVAC_forks": 61,
+    "PVAC_open_PRs": [
+      500,
+      499
+    ],
+    "PVAC_open_issues": [
+      503,
+      502,
+      501
+    ]
+  },
+  "changes": [],
+  "kubo_watcher_hits": [],
+  "full_scan_run": false,
+  "verdict": "CLOSED",
+  "note": "No anchor change since QP-07 baseline; skip full fork rescan."
+}

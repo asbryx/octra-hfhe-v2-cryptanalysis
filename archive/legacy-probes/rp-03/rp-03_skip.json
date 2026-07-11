@@ -1,0 +1,6 @@
+{
+  "probe": "RP-03",
+  "verdict": "SKIPPED",
+  "reason": "RP-02 not run (depends on RP-01/02 public ratios)",
+  "plan_gate": "NEXT_RESEARCH_PLAN_AFTER_QP.md"
+}

@@ -1,0 +1,44 @@
+{
+  "probe": "RP-04",
+  "eff_bits": 127,
+  "samples": 2000,
+  "rank_histogram": {
+    "119": 2,
+    "120": 8,
+    "121": 6,
+    "122": 28,
+    "123": 61,
+    "124": 126,
+    "125": 247,
+    "126": 503,
+    "127": 1019
+  },
+  "min_rank": 119,
+  "max_rank": 127,
+  "mean_rank": 126.0665,
+  "full_rank_rate": 0.5095,
+  "first_set_bit_histogram_head": {
+    "0": 1019,
+    "1": 503,
+    "2": 247,
+    "3": 126,
+    "4": 61,
+    "5": 28,
+    "6": 6,
+    "7": 8,
+    "8": 2
+  },
+  "formula": "rank = 0 if top==0 else 127 - valuation(top)",
+  "formula_vs_gaussian_match": 1.0,
+  "differential_basis_match_rate": 1.0,
+  "random_top_expectation": {
+    "P(val>=k)": "2^{-k} approx for uniform top",
+    "E[rank]": "127 - sum_{k>=1} P(val>=k) \u2248 127 - 1 = 126 for nonzero; incl zero tiny",
+    "observed_mean_rank": 126.0665
+  },
+  "three_core_product": "Each R-core = hash_to_fp(toep(top,y)); independent tops per domain. Even if one map has rank 126, product R1*R2*R3 in Fp still looks uniform nonzero; no public core outputs to enforce linear constraints on y.",
+  "verdict": "CLOSED",
+  "close_reason": "Rank follows random-top expectation (mean ~126, full-rank rate ~50%); degeneracy is valuation-driven, not a stable secret-independent kernel; no public R-core; three-core product erases usable linear constraints.",
+  "applicability_to_active": "Active tops are AES-CTR keyed by prf_k \u2014 unknown. Map degeneracy cannot be exploited without top. QP-02 already proved only 127 bits of y matter; RP-04 shows those 127 bits are essentially full-rank into the 127-bit toep output."
+}
+sha256 a08fa9a149ea69ee5d4346df9f2f509852885c1ddc2ba23dfae45d85403c4bde

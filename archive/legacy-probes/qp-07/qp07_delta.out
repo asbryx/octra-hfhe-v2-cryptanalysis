@@ -1,0 +1,44 @@
+{
+  "probe": "QP-07",
+  "date_utc": "2026-07-10T19:18:22.969922+00:00",
+  "anchors": {
+    "challenge_HEAD": "0d08e9622921e5930175a660df0061a65548972f",
+    "challenge_forks": 26,
+    "challenge_PRs": 3,
+    "PVAC_pinned": "071b0e909c119de815e284b347c4bd979cb59ef3",
+    "PVAC_open_issues_include": [
+      501,
+      502,
+      503
+    ],
+    "PVAC_open_PRs": 2
+  },
+  "observed": {
+    "challenge_HEAD": "0d08e9622921e5930175a660df0061a65548972f",
+    "challenge_forks": 26,
+    "challenge_PRs_all_count": 4,
+    "challenge_pushed_at": "2026-07-09T21:49:59Z",
+    "PVAC_HEAD": "071b0e909c119de815e284b347c4bd979cb59ef3",
+    "PVAC_forks": 61,
+    "PVAC_open_issues": [
+      503,
+      502,
+      501
+    ],
+    "PVAC_open_PRs": [
+      500,
+      499
+    ],
+    "PVAC_open_PR_count": 2,
+    "PVAC_pushed_at": "2026-07-09T18:30:07Z"
+  },
+  "raw_changes": [
+    "challenge_PRs"
+  ],
+  "meaningful_changes": [
+    "challenge_PRs"
+  ],
+  "full_delta_scan_run": true,
+  "verdict": "DELTA_DETECTED",
+  "note": "Anchor changed \u2014 full public delta scan warranted."
+}

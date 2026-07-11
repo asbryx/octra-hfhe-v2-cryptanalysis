@@ -1,0 +1,91 @@
+In file included from archive/legacy-probes/rr-04/rr04_toep_rank_exact.cpp:11:
+In file included from upstream/pvac_hfhe_cpp/include\pvac/crypto/lpn.hpp:10:
+In file included from upstream/pvac_hfhe_cpp/include\pvac/crypto\toeplitz.hpp:8:
+upstream/pvac_hfhe_cpp/include\pvac/crypto\../core/config.hpp:9:27: warning: 'getenv' is deprecated: This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. [-Wdeprecated-declarations]
+    9 |     const char * s = std::getenv("PVAC_DBG");
+      |                           ^
+system-toolchain:1183:20: note: 'getenv' has been explicitly marked deprecated here
+ 1183 |     _Check_return_ _CRT_INSECURE_DEPRECATE(_dupenv_s)
+      |                    ^
+system-toolchain:368:55: note: expanded from macro '_CRT_INSECURE_DEPRECATE'
+  368 |         #define _CRT_INSECURE_DEPRECATE(_Replacement) _CRT_DEPRECATE_TEXT(    \
+      |                                                       ^
+system-toolchain:358:47: note: expanded from macro '_CRT_DEPRECATE_TEXT'
+  358 | #define _CRT_DEPRECATE_TEXT(_Text) __declspec(deprecated(_Text))
+      |                                               ^
+In file included from archive/legacy-probes/rr-04/rr04_toep_rank_exact.cpp:11:
+In file included from upstream/pvac_hfhe_cpp/include\pvac/crypto/lpn.hpp:10:
+In file included from upstream/pvac_hfhe_cpp/include\pvac/crypto\toeplitz.hpp:8:
+upstream/pvac_hfhe_cpp/include\pvac/crypto\../core/config.hpp:10:22: warning: 'getenv' is deprecated: This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. [-Wdeprecated-declarations]
+   10 |     if (!s) s = std::getenv("HFHE_DBG");
+      |                      ^
+system-toolchain:1183:20: note: 'getenv' has been explicitly marked deprecated here
+ 1183 |     _Check_return_ _CRT_INSECURE_DEPRECATE(_dupenv_s)
+      |                    ^
+system-toolchain:368:55: note: expanded from macro '_CRT_INSECURE_DEPRECATE'
+  368 |         #define _CRT_INSECURE_DEPRECATE(_Replacement) _CRT_DEPRECATE_TEXT(    \
+      |                                                       ^
+system-toolchain:358:47: note: expanded from macro '_CRT_DEPRECATE_TEXT'
+  358 | #define _CRT_DEPRECATE_TEXT(_Text) __declspec(deprecated(_Text))
+      |                                               ^
+archive/legacy-probes/rr-04/rr04_toep_rank_exact.cpp:119:20: warning: 'fopen' is deprecated: This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. [-Wdeprecated-declarations]
+  119 |     FILE* f = std::fopen("archive/legacy-probes/seeds_active.txt", "r");
+      |                    ^
+system-toolchain:212:20: note: 'fopen' has been explicitly marked deprecated here
+  212 |     _Check_return_ _CRT_INSECURE_DEPRECATE(fopen_s)
+      |                    ^
+system-toolchain:368:55: note: expanded from macro '_CRT_INSECURE_DEPRECATE'
+  368 |         #define _CRT_INSECURE_DEPRECATE(_Replacement) _CRT_DEPRECATE_TEXT(    \
+      |                                                       ^
+system-toolchain:358:47: note: expanded from macro '_CRT_DEPRECATE_TEXT'
+  358 | #define _CRT_DEPRECATE_TEXT(_Text) __declspec(deprecated(_Text))
+      |                                               ^
+archive/legacy-probes/rr-04/rr04_toep_rank_exact.cpp:128:18: warning: 'sscanf' is deprecated: This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. [-Wdeprecated-declarations]
+  128 |         if (std::sscanf(line, "C%*d L%*d rule=BASE ztag=%llx lo=%llx hi=%llx", &z, &lo, &hi) == 3 ||
+      |                  ^
+system-toolchain:2239:20: note: 'sscanf' has been explicitly marked deprecated here
+ 2239 |     _Check_return_ _CRT_INSECURE_DEPRECATE(sscanf_s)
+      |                    ^
+system-toolchain:368:55: note: expanded from macro '_CRT_INSECURE_DEPRECATE'
+  368 |         #define _CRT_INSECURE_DEPRECATE(_Replacement) _CRT_DEPRECATE_TEXT(    \
+      |                                                       ^
+system-toolchain:358:47: note: expanded from macro '_CRT_DEPRECATE_TEXT'
+  358 | #define _CRT_DEPRECATE_TEXT(_Text) __declspec(deprecated(_Text))
+      |                                               ^
+archive/legacy-probes/rr-04/rr04_toep_rank_exact.cpp:129:18: warning: 'sscanf' is deprecated: This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. [-Wdeprecated-declarations]
+  129 |             std::sscanf(line, "%*s %*s rule=BASE ztag=%llx lo=%llx hi=%llx", &z, &lo, &hi) == 3) {
+      |                  ^
+system-toolchain:2239:20: note: 'sscanf' has been explicitly marked deprecated here
+ 2239 |     _Check_return_ _CRT_INSECURE_DEPRECATE(sscanf_s)
+      |                    ^
+system-toolchain:368:55: note: expanded from macro '_CRT_INSECURE_DEPRECATE'
+  368 |         #define _CRT_INSECURE_DEPRECATE(_Replacement) _CRT_DEPRECATE_TEXT(    \
+      |                                                       ^
+system-toolchain:358:47: note: expanded from macro '_CRT_DEPRECATE_TEXT'
+  358 | #define _CRT_DEPRECATE_TEXT(_Text) __declspec(deprecated(_Text))
+      |                                               ^
+archive/legacy-probes/rr-04/rr04_toep_rank_exact.cpp:141:18: warning: 'fopen' is deprecated: This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. [-Wdeprecated-declarations]
+  141 |         f = std::fopen("archive/legacy-probes/seeds_active.txt", "r");
+      |                  ^
+system-toolchain:212:20: note: 'fopen' has been explicitly marked deprecated here
+  212 |     _Check_return_ _CRT_INSECURE_DEPRECATE(fopen_s)
+      |                    ^
+system-toolchain:368:55: note: expanded from macro '_CRT_INSECURE_DEPRECATE'
+  368 |         #define _CRT_INSECURE_DEPRECATE(_Replacement) _CRT_DEPRECATE_TEXT(    \
+      |                                                       ^
+system-toolchain:358:47: note: expanded from macro '_CRT_DEPRECATE_TEXT'
+  358 | #define _CRT_DEPRECATE_TEXT(_Text) __declspec(deprecated(_Text))
+      |                                               ^
+archive/legacy-probes/rr-04/rr04_toep_rank_exact.cpp:164:14: warning: 'sscanf' is deprecated: This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. [-Wdeprecated-declarations]
+  164 |         std::sscanf(hd + 2 * i, "%02x", &v);
+      |              ^
+system-toolchain:2239:20: note: 'sscanf' has been explicitly marked deprecated here
+ 2239 |     _Check_return_ _CRT_INSECURE_DEPRECATE(sscanf_s)
+      |                    ^
+system-toolchain:368:55: note: expanded from macro '_CRT_INSECURE_DEPRECATE'
+  368 |         #define _CRT_INSECURE_DEPRECATE(_Replacement) _CRT_DEPRECATE_TEXT(    \
+      |                                                       ^
+system-toolchain:358:47: note: expanded from macro '_CRT_DEPRECATE_TEXT'
+  358 | #define _CRT_DEPRECATE_TEXT(_Text) __declspec(deprecated(_Text))
+      |                                               ^
+7 warnings generated.

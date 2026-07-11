@@ -1,0 +1,6 @@
+seeds_loaded=44
+samples=4224 formula_match=4224 match_rate=1.000000
+NOTE=active_seeds_plus_dummy_keys_not_exact_active_secret
+rank_hist: 116:1 117:5 118:4 119:10 120:16 121:30 122:59 123:134 124:289 125:520 126:1011 127:2145
+val_hist_head: 0:2145 1:1011 2:520 3:289 4:134 5:59 6:30 7:16 8:10 9:4 10:5 11:1
+verdict=FORMULA_CONFIRMED
