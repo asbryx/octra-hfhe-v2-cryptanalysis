@@ -95,7 +95,7 @@ research/final-exhaustion.md     Full corpus and mathematical boundary report
 docs/smoke-ui-comparison.md      Comparison with the smoke-ui assessment
 tools/                           Small runnable probes
 results/                         Committed measured JSON outputs
-archive/                         Historical phase reports and 93 legacy probe/source/result files
+archive/                         Historical phase reports and 50 legacy probe/source/result files
 SHA256SUMS                       Integrity manifest for this repository
 ```
 
