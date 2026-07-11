@@ -82,7 +82,7 @@ This repository extends that work by:
 - auditing the dependency bridge from public R1 data to the PRF key, Toeplitz extraction, R2/R3, PC, and plaintext;
 - narrowing several earlier closure claims to exactly what the probes measured.
 
-See [`docs/smoke-ui-comparison.md`](docs/smoke-ui-comparison.md) for a detailed comparison.
+See [`docs/smoke-ui-comparison.md`](docs/smoke-ui-comparison.md) for the dedicated result-by-result comparison, including why the LPN, compiler, concurrency, and PC/R conclusions differ.
 
 ## Repository Layout
 
