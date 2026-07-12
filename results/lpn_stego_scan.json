@@ -1,0 +1,213 @@
+{
+  "input": {
+    "files": 44,
+    "rows": 720896
+  },
+  "channels": [
+    {
+      "name": "y",
+      "bits": 720896,
+      "ones": 360224,
+      "one_rate": 0.4996892755681818,
+      "monobit_abs_z": 0.5276448530110863,
+      "views": [
+        {
+          "bit_order": "lsb",
+          "sha256": "abf7dc75f5b5625e1e7e97a1f20dbc32676e335b12cb233e26e1f3ab8791353e",
+          "marker_hits": [],
+          "longest_printable_run": 12,
+          "printable_preview": "N<+DI8IkdQa!"
+        },
+        {
+          "bit_order": "msb",
+          "sha256": "698592e6c41ad95e1386b2b8c95591aae79ee70035124fa1594df71dbfb51c91",
+          "marker_hits": [
+            "key"
+          ],
+          "longest_printable_run": 12,
+          "printable_preview": "ndM!<S)3XI{|"
+        }
+      ]
+    },
+    {
+      "name": "row_parity",
+      "bits": 720896,
+      "ones": 359492,
+      "one_rate": 0.49867387251420453,
+      "monobit_abs_z": 2.251912854815172,
+      "views": [
+        {
+          "bit_order": "lsb",
+          "sha256": "0335883fd8cdeebbd2a67d856b3b8f3ad54deb93d742df4dfe45881e8c1bbcb9",
+          "marker_hits": [],
+          "longest_printable_run": 10,
+          "printable_preview": "FG]-@z<j{%"
+        },
+        {
+          "bit_order": "msb",
+          "sha256": "550ff42da4a49237dad70ea4e5855292d073a9513d0060f8058476ae5416b1db",
+          "marker_hits": [],
+          "longest_printable_run": 11,
+          "printable_preview": "\tss9Kyovj,C"
+        }
+      ]
+    },
+    {
+      "name": "first_lsb",
+      "bits": 720896,
+      "ones": 359743,
+      "one_rate": 0.49902205033735797,
+      "monobit_abs_z": 1.6606679525572137,
+      "views": [
+        {
+          "bit_order": "lsb",
+          "sha256": "3bbe3930ddd07380bfe1f4f435f441d8c73350ab3faea6163009ab4185dcd3b9",
+          "marker_hits": [],
+          "longest_printable_run": 11,
+          "printable_preview": "_?h~L~tYxMb"
+        },
+        {
+          "bit_order": "msb",
+          "sha256": "26228271be635fbe911e88f82ab40f5155c1cbd21e8d06660120232840523524",
+          "marker_hits": [],
+          "longest_printable_run": 11,
+          "printable_preview": "}i2Tai=Urc\r"
+        }
+      ]
+    },
+    {
+      "name": "last_msb",
+      "bits": 720896,
+      "ones": 360955,
+      "one_rate": 0.5007032914595171,
+      "monobit_abs_z": 1.1942675914134857,
+      "views": [
+        {
+          "bit_order": "lsb",
+          "sha256": "26cc21a9d6c5ff723529b12647990e91636ee8949bf6e7adfd1f8aef43d4f996",
+          "marker_hits": [],
+          "longest_printable_run": 14,
+          "printable_preview": "\ro#sE&\t-9EO\r@J"
+        },
+        {
+          "bit_order": "msb",
+          "sha256": "729fdd1bd84122fc88378bda610b5455118baf5e1616313f13389c03b54f3afc",
+          "marker_hits": [
+            "key"
+          ],
+          "longest_printable_run": 11,
+          "printable_preview": "N3?~\\5)0g?k"
+        }
+      ]
+    },
+    {
+      "name": "row_hash_lsb",
+      "bits": 720896,
+      "ones": 360707,
+      "one_rate": 0.5003592751242898,
+      "monobit_abs_z": 0.6100893612940685,
+      "views": [
+        {
+          "bit_order": "lsb",
+          "sha256": "0070af2acf35c064114ee3bb2059de1b7771f3a3a417992fad95ab1d38948f79",
+          "marker_hits": [],
+          "longest_printable_run": 12,
+          "printable_preview": "&Z5\\HB.ebRJ3"
+        },
+        {
+          "bit_order": "msb",
+          "sha256": "0bef431827bfa5b77e67344b5c785405868e31b0d6ede232dc164ab756b0757a",
+          "marker_hits": [],
+          "longest_printable_run": 11,
+          "printable_preview": "$N7zEM#g3h\t"
+        }
+      ]
+    },
+    {
+      "name": "y_row_major",
+      "bits": 720896,
+      "ones": 360224,
+      "one_rate": 0.4996892755681818,
+      "monobit_abs_z": 0.5276448530110863,
+      "views": [
+        {
+          "bit_order": "lsb",
+          "sha256": "f7c6eae0deeb515316decd65edfe878dfcab50732ea90f6cfb08fa1c02929df6",
+          "marker_hits": [],
+          "longest_printable_run": 10,
+          "printable_preview": "K\rXX:V>l #"
+        },
+        {
+          "bit_order": "msb",
+          "sha256": "763ed02fe0b1eed3bcc19a23649d3e619959fe7e925598e197a5a338b543ea8d",
+          "marker_hits": [],
+          "longest_printable_run": 11,
+          "printable_preview": "yop_Vh<N.Q]"
+        }
+      ]
+    },
+    {
+      "name": "y_xor_all_files",
+      "bits": 16384,
+      "ones": 8188,
+      "one_rate": 0.499755859375,
+      "monobit_abs_z": 0.0625,
+      "views": [
+        {
+          "bit_order": "lsb",
+          "sha256": "231346c8bfcb174ca51ca31c0cd163fabec0d366651890f578ab859dc4fcbbb9",
+          "marker_hits": [],
+          "longest_printable_run": 7,
+          "printable_preview": "9RV\n)8:"
+        },
+        {
+          "bit_order": "msb",
+          "sha256": "a11ca98d532c3fb36eeddcd95dfce8c634ad6fe4c83894a0009f1a8b711b96ba",
+          "marker_hits": [],
+          "longest_printable_run": 7,
+          "printable_preview": ".-TF$ZY"
+        }
+      ]
+    },
+    {
+      "name": "y_xor_layer_pairs",
+      "bits": 360448,
+      "ones": 179408,
+      "one_rate": 0.4977361505681818,
+      "monobit_abs_z": 2.718309133534033,
+      "views": [
+        {
+          "bit_order": "lsb",
+          "sha256": "e89c330ced6f9f7c81c6afbc98738661e5950a36b3e21d7a773ba879d583cccd",
+          "marker_hits": [],
+          "longest_printable_run": 9,
+          "printable_preview": "m<.B#xE%{"
+        },
+        {
+          "bit_order": "msb",
+          "sha256": "6a825a072598191e0bdd7f61be4d6bf7f528896d920d2ef4089a3bf996d94223",
+          "marker_hits": [],
+          "longest_printable_run": 10,
+          "printable_preview": "\"gTUA>V-/1"
+        }
+      ]
+    }
+  ],
+  "header_stream": {
+    "bytes": 1760,
+    "sha256": "6705544be6f3e6fea6029197bd5c9c816e923a998bd705662c637de0aa22fbc4",
+    "marker_hits": [],
+    "longest_printable_run": 8,
+    "printable_preview": "2BV><{uh"
+  },
+  "promoted_candidates": [],
+  "multiple_testing": {
+    "total_view_bytes": 1175552,
+    "observed_casefold_key_hits": 2,
+    "expected_casefold_key_hits_uniform": 0.560546875,
+    "poisson_probability_at_least_two": 0.10908883073244946,
+    "interpretation": "Three-byte case-folded markers are reported but not promoted."
+  },
+  "verdict": "NO_SIMPLE_COVERT_CHANNEL_FOUND",
+  "limitations": "Covers direct bit packing and simple parity/hash channels, not arbitrary keyed steganography."
+}

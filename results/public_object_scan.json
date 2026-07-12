@@ -1,0 +1,945 @@
+{
+  "repo": ".",
+  "refs": [
+    "refs/audit/pull/1 832890554fff9794871ebd462cf7b917e6222eb5",
+    "refs/audit/pull/2 44886d962d8df2dc0849cc55d476cb571561e58d",
+    "refs/audit/pull/3 ffed46e744bb17871120fbc7e27102c92896567f",
+    "refs/audit/pull/4 3cdab3379f7c72cd9d85e67c88da84d5d05f5bd8",
+    "refs/heads/main 0d08e9622921e5930175a660df0061a65548972f",
+    "refs/remotes/origin/HEAD 019380c97543620091409b0fbf73a8a773a9a0da",
+    "refs/remotes/origin/main 019380c97543620091409b0fbf73a8a773a9a0da",
+    "refs/tags/v2_fix 08bf879dd9e9aff094e4106ee5d86dde9de12742"
+  ],
+  "unreachable_objects": 140,
+  "named_objects": 205,
+  "scanned_blobs": 124,
+  "skipped_large_non_suspicious_blobs": 4,
+  "findings": [
+    {
+      "oid": "036fa8095da7df75362c3a19847359239065446f",
+      "names": [
+        "lpn_samples/ct08_l0_s0_pvac_prf_r_1.jsonl"
+      ],
+      "size": 17176022,
+      "sha256": "518a96c5e2e82a1dae8835ace2d4d9c9f44435c45c8ce0cffc85df997d757a89",
+      "content_markers": [
+        "public_T_hex",
+        "octra-bounty-target-seed-lpn-ay-v1"
+      ]
+    },
+    {
+      "oid": "073f209bb05fa2326cc466cfe2e584567ade6a17",
+      "names": [
+        "tools/plaintext_recovery.cpp"
+      ],
+      "size": 6732,
+      "sha256": "df4583fdf66a5963da5985561c57a49572325a12f5adcdffa43c9b93b027b60c",
+      "content_markers": []
+    },
+    {
+      "oid": "0c55a58cb3c3f807ce44c52905d47786a1d6a390",
+      "names": [
+        "lpn_samples/ct12_l0_s0_pvac_prf_r_1.jsonl"
+      ],
+      "size": 17176024,
+      "sha256": "d5ca51945a69f3399038a47be28be0587eaa654497cf306f884835b532e52d1a",
+      "content_markers": [
+        "public_T_hex",
+        "octra-bounty-target-seed-lpn-ay-v1"
+      ]
+    },
+    {
+      "oid": "10b74a995b07c2af84a0c2f9efa473a94afe0f76",
+      "names": [
+        "ANALYSIS.md"
+      ],
+      "size": 4020,
+      "sha256": "a6188dd8e977730f8efcd3e663b1d6820e86b623b7a6ce60622f71bbc3d9b2c4",
+      "content_markers": [
+        "lpn_s_bits",
+        "prf_k"
+      ]
+    },
+    {
+      "oid": "10ec837b1b0e9d3f1512fe5bb1bdf879e5529c38",
+      "names": [
+        "source/pvac_artifact_serialize.hpp"
+      ],
+      "size": 14434,
+      "sha256": "87115033ab8a248c6c0067916a562c4922703197d220416985da24b2d646c5a5",
+      "content_markers": [
+        "lpn_s_bits",
+        "prf_k"
+      ]
+    },
+    {
+      "oid": "1adfbe37663a0a09217c98f19643a3c4c73f99e3",
+      "names": [
+        "lpn_samples/ct11_l1_s0_pvac_prf_r_1.jsonl"
+      ],
+      "size": 17176024,
+      "sha256": "e3084a58cf5319ccf3b1713e67ab4e8b283a16c833617feda1f059ddbedad941",
+      "content_markers": [
+        "public_T_hex",
+        "octra-bounty-target-seed-lpn-ay-v1"
+      ]
+    },
+    {
+      "oid": "1f343039f1489575248ee245ef491f2ac4be2f20",
+      "names": [
+        "lpn_samples/ct04_l0_s0_pvac_prf_r_1.jsonl"
+      ],
+      "size": 17176023,
+      "sha256": "0188d7ca953895a0128c379d79dc5eccfa52e095aee38666a58395c965de081d",
+      "content_markers": [
+        "public_T_hex",
+        "octra-bounty-target-seed-lpn-ay-v1"
+      ]
+    },
+    {
+      "oid": "23a5e3c3e52ecfb02feb92b8dee1d6fbde1d52e4",
+      "names": [
+        "lpn_samples/ct14_l1_s0_pvac_prf_r_1.jsonl"
+      ],
+      "size": 17176022,
+      "sha256": "37310e2d341e44d23f8eb79f3d889443836d6438b8d8434bdcf045afdc1af310",
+      "content_markers": [
+        "public_T_hex",
+        "octra-bounty-target-seed-lpn-ay-v1"
+      ]
+    },
+    {
+      "oid": "264cebebbec51b7cb9f17453009d2c20fbacbf24",
+      "names": [
+        "README.md"
+      ],
+      "size": 1780,
+      "sha256": "b795650113ad43941be20d5bff7cf0274e2a675cd550a880b9c49b570c8b7cff",
+      "content_markers": [
+        "lpn_samples"
+      ]
+    },
+    {
+      "oid": "27e7795f3f1ba1458d1b0efafd96b4a2f3752a4a",
+      "names": [
+        "ANALYSIS.md"
+      ],
+      "size": 7029,
+      "sha256": "14bc984a11465748dc339a2e2d643fcac39321a326ddc112ea3ad9a0cd396f80",
+      "content_markers": [
+        "lpn_s_bits",
+        "prf_k"
+      ]
+    },
+    {
+      "oid": "2a26f464cd9627fee49e37bbe8b0c8d1c8059049",
+      "names": [
+        "LPN_ANALYSIS.md"
+      ],
+      "size": 3995,
+      "sha256": "00f43b3c708d6c0a37f31753c07df001541d5da9ec17b99131ba03ebadf544a9",
+      "content_markers": [
+        "lpn_s_bits",
+        "prf_k"
+      ]
+    },
+    {
+      "oid": "2c2296ae60aac9829551e81269bbeab0a53fbfb9",
+      "names": [
+        "tools/lpn_estimate.py"
+      ],
+      "size": 2003,
+      "sha256": "ad70ad789b7fcf2078a81fc7f6f9f1d0f519dcdb8a6460a8ea4f5172ade4c21b",
+      "content_markers": []
+    },
+    {
+      "oid": "344d92c71d42c7715dc6c0d25a410ca79d17dc4f",
+      "names": [
+        "source/hfhe_bounty_artifact.cpp"
+      ],
+      "size": 17289,
+      "sha256": "3ad3bf592a294c0124688aedd60263955e1241d49c873dbee809cee49431e4fa",
+      "content_markers": [
+        "plaintext.txt",
+        "sk.bin"
+      ]
+    },
+    {
+      "oid": "378146b0e1c0fb22b13b6340ac000d0e86f4e1d5",
+      "names": [
+        "lpn_samples/ct09_l1_s0_pvac_prf_r_1.jsonl"
+      ],
+      "size": 17176023,
+      "sha256": "0710789aa50bd70792d4a77f58de8247db23d8e3a4afba01bc897725c3d5d25f",
+      "content_markers": [
+        "public_T_hex",
+        "octra-bounty-target-seed-lpn-ay-v1"
+      ]
+    },
+    {
+      "oid": "3eb65fa2d1598242dcd453a5e24d07f81a15120f",
+      "names": [
+        "lpn_samples/ct07_l0_s0_pvac_prf_r_1.jsonl"
+      ],
+      "size": 17176023,
+      "sha256": "f28dcd5b871860186d3ce341509b65721702dbb2c903ab73d32c1c3eb424ccfc",
+      "content_markers": [
+        "public_T_hex",
+        "octra-bounty-target-seed-lpn-ay-v1"
+      ]
+    },
+    {
+      "oid": "3f2526caa0be9875797b0542d0c7791e546b9eac",
+      "names": [
+        "docs/index.html"
+      ],
+      "size": 8914,
+      "sha256": "758c7e88fae3ca1b9db2f24deafdf81826af19c5b510600ada9028eb7eeed6d6",
+      "content_markers": [
+        "prf_k"
+      ]
+    },
+    {
+      "oid": "3f60e23757acfe2741bb9c7ba64a4a6ec09ddeb0",
+      "names": [
+        "lpn_samples/ct20_l0_s0_pvac_prf_r_1.jsonl"
+      ],
+      "size": 17176023,
+      "sha256": "bb4e8c347a87162b4d730c42f6e8421cca2326c08d64a51de03225b6c33dac9b",
+      "content_markers": [
+        "public_T_hex",
+        "octra-bounty-target-seed-lpn-ay-v1"
+      ]
+    },
+    {
+      "oid": "40a21a1eadea204761de3cc3f7062a64c93302e0",
+      "names": [
+        "lpn_samples/ct12_l1_s0_pvac_prf_r_1.jsonl"
+      ],
+      "size": 17176023,
+      "sha256": "af75e4ebd44c7d956aa9ccbe90b93201523f3a36c9dec23a186a84a5b49c47ba",
+      "content_markers": [
+        "public_T_hex",
+        "octra-bounty-target-seed-lpn-ay-v1"
+      ]
+    },
+    {
+      "oid": "47ac5c1217f4a3a8e082f0a86c453d1ac70bdc1c",
+      "names": [
+        "lpn_samples/ct21_l0_s0_pvac_prf_r_1.jsonl"
+      ],
+      "size": 17176023,
+      "sha256": "b3f92af5589dc78d49802855fada746660083d4de4719e02bb0884fed3a6ad42",
+      "content_markers": [
+        "public_T_hex",
+        "octra-bounty-target-seed-lpn-ay-v1"
+      ]
+    },
+    {
+      "oid": "491ad0fd7ce4f18579309aee51ff3b92dd3eb441",
+      "names": [
+        "ANALYSIS.md"
+      ],
+      "size": 8488,
+      "sha256": "9116440bcd61b83ae510d0fba5b39f10a998e8bbf0e4104c0ee57e3f5555e27d",
+      "content_markers": [
+        "lpn_s_bits",
+        "prf_k"
+      ]
+    },
+    {
+      "oid": "4a23f2c038cc757d11a0ca290b1f62e26a9d53ac",
+      "names": [
+        "lpn_samples/ct18_l1_s0_pvac_prf_r_1.jsonl"
+      ],
+      "size": 17176022,
+      "sha256": "00ce9e6cf905afbde456a8c05298a3a4d021c79d7804c97f6508afd3d9f2e4d9",
+      "content_markers": [
+        "public_T_hex",
+        "octra-bounty-target-seed-lpn-ay-v1"
+      ]
+    },
+    {
+      "oid": "4e7a58a93cd4786ffee25532df21a9726d0f6660",
+      "names": [
+        "lpn_samples/ct19_l0_s0_pvac_prf_r_1.jsonl"
+      ],
+      "size": 17176023,
+      "sha256": "e200b6d7c3dc9b43a48039c2ea1f9735bad8808d2535e4cd94684e0c3cdf5073",
+      "content_markers": [
+        "public_T_hex",
+        "octra-bounty-target-seed-lpn-ay-v1"
+      ]
+    },
+    {
+      "oid": "51572fb9b91620b1e94752e61af4db9799461500",
+      "names": [
+        "LPN_ANALYSIS.md"
+      ],
+      "size": 3043,
+      "sha256": "b3534e5af8d5f86d76d3be23123138b161179d277b441c6d1338ca3106facc9b",
+      "content_markers": [
+        "lpn_s_bits",
+        "prf_k"
+      ]
+    },
+    {
+      "oid": "53011da7cb00f81371e56801f93aaca9142b84bd",
+      "names": [
+        "lpn_samples/ct10_l0_s0_pvac_prf_r_1.jsonl"
+      ],
+      "size": 17176022,
+      "sha256": "d2dfd11437434bcca1b9d3be00b104eccbd84a801064c3acbacee312d63208d2",
+      "content_markers": [
+        "public_T_hex",
+        "octra-bounty-target-seed-lpn-ay-v1"
+      ]
+    },
+    {
+      "oid": "5d156d194a14bf97f16bfed5e3bd819e81102181",
+      "names": [
+        "secret.ct"
+      ],
+      "size": 570453,
+      "sha256": "1f48fae52859e3f21011a565f40348e21b4ed3aaa07b1b404d58a4fc6c0456d4",
+      "content_markers": []
+    },
+    {
+      "oid": "63f5862777657121d226474c6bcad38d01f7656d",
+      "names": [
+        "lpn_samples/ct13_l0_s0_pvac_prf_r_1.jsonl"
+      ],
+      "size": 17176024,
+      "sha256": "8cb541a357c568c2bf3d90af79d042d8dd8168745d562f1adbf62149669bb9b4",
+      "content_markers": [
+        "public_T_hex",
+        "octra-bounty-target-seed-lpn-ay-v1"
+      ]
+    },
+    {
+      "oid": "661f473600aa79b217373611bef27e9632b3b162",
+      "names": [
+        "README.md"
+      ],
+      "size": 1599,
+      "sha256": "c5d3c84fef224fd208d7c0c63449cfaa77a21d5367f8cdedd4ebc90be60e4c9b",
+      "content_markers": [
+        "lpn_samples"
+      ]
+    },
+    {
+      "oid": "663921e1902aa9dea698cb7ea9c016db026aad5b",
+      "names": [
+        "lpn_samples/ct03_l1_s0_pvac_prf_r_1.jsonl"
+      ],
+      "size": 17176022,
+      "sha256": "5453d4877680f6c8c24ae3bc83465421c1ca3bf945fa884b98bcb9668a7f8aab",
+      "content_markers": [
+        "public_T_hex",
+        "octra-bounty-target-seed-lpn-ay-v1"
+      ]
+    },
+    {
+      "oid": "6877a67589572835d41c3eeaa2a76e9d7cedb51e",
+      "names": [
+        "source/pvac_artifact_serialize.hpp"
+      ],
+      "size": 15053,
+      "sha256": "6a2d86f031d6a3d719d4e50a27800765fe05f3997cf8de181409dd99ad7aeea9",
+      "content_markers": [
+        "lpn_s_bits",
+        "prf_k"
+      ]
+    },
+    {
+      "oid": "69025600786c99d31e5fb3bd8a21eea4efe356fa",
+      "names": [
+        "lpn_samples/ct09_l0_s0_pvac_prf_r_1.jsonl"
+      ],
+      "size": 17176023,
+      "sha256": "cb514246d3745d92592eb4d4ed753d29ea204c9bf606ff4b7b8648488c9c133a",
+      "content_markers": [
+        "public_T_hex",
+        "octra-bounty-target-seed-lpn-ay-v1"
+      ]
+    },
+    {
+      "oid": "6f2d619556fe093cea7f9965925c312d5ab7183a",
+      "names": [
+        "lpn_samples/ct03_l0_s0_pvac_prf_r_1.jsonl"
+      ],
+      "size": 17176022,
+      "sha256": "d46441bc711f204af01ea604a30a89ef38f8470d65778fe6820cdfc2c911213b",
+      "content_markers": [
+        "public_T_hex",
+        "octra-bounty-target-seed-lpn-ay-v1"
+      ]
+    },
+    {
+      "oid": "737c57cfa4f8536235481d42b0e1a10028b2be30",
+      "names": [
+        "manifest.json"
+      ],
+      "size": 1330,
+      "sha256": "e4c4365568f7dee437539bdf1eb4dd769618168453d957a24da4bc66cda1adf9",
+      "content_markers": [
+        "sk.bin"
+      ]
+    },
+    {
+      "oid": "77e0ed453bc9e8d31717dac8f3df134b038e0d1f",
+      "names": [
+        "lpn_samples/ct05_l0_s0_pvac_prf_r_1.jsonl"
+      ],
+      "size": 17176023,
+      "sha256": "0e7317dca40da1d7ba16200c0c7d094843d7e2b4d87e8ec0bcb7a694364dec2b",
+      "content_markers": [
+        "public_T_hex",
+        "octra-bounty-target-seed-lpn-ay-v1"
+      ]
+    },
+    {
+      "oid": "81305363b11388a3149ff2f7b0e92a288a1cdf8b",
+      "names": [
+        "lpn_samples/ct14_l0_s0_pvac_prf_r_1.jsonl"
+      ],
+      "size": 17176024,
+      "sha256": "18ed123f8da4a7bbcbccd216042fe565ae01e30dea9ac159f57fa40c493ed5f8",
+      "content_markers": [
+        "public_T_hex",
+        "octra-bounty-target-seed-lpn-ay-v1"
+      ]
+    },
+    {
+      "oid": "8171ff2d58a1a79a0e1cd6333f665ce36d12a707",
+      "names": [
+        "LPN_ANALYSIS.md"
+      ],
+      "size": 5844,
+      "sha256": "58b1ae0d463d3de3120c8b30618c85f5062d20c32ffb358da35faf49257ca7a2",
+      "content_markers": [
+        "lpn_samples",
+        "prf_k"
+      ]
+    },
+    {
+      "oid": "8583ac61cab73fb665a22b8bf84cf62e98a76e2f",
+      "names": [
+        "lpn_samples/ct21_l1_s0_pvac_prf_r_1.jsonl"
+      ],
+      "size": 17176022,
+      "sha256": "fdd21d3438a345eedb609fc2f6471d105bd3b03af3fb15e0bbb1d1a68dcdec86",
+      "content_markers": [
+        "public_T_hex",
+        "octra-bounty-target-seed-lpn-ay-v1"
+      ]
+    },
+    {
+      "oid": "8ac10ec7dd6c05e1f91a3d081c7224b165ceb0ec",
+      "names": [
+        "source/hfhe_bounty_artifact.cpp"
+      ],
+      "size": 20016,
+      "sha256": "3331b4b3950504f35c03452224679b9c2dae67097be5ce2039546588e3752c0f",
+      "content_markers": [
+        "plaintext.txt",
+        "sk.bin"
+      ]
+    },
+    {
+      "oid": "8b9d17c6988f0aaa7d9dbfc83efc79d46508a03a",
+      "names": [
+        "lpn_samples/ct07_l1_s0_pvac_prf_r_1.jsonl"
+      ],
+      "size": 17176022,
+      "sha256": "0533c31664c92a5ac55dc536adf817ad9d4fc47db5c1143ed7b61ecb001fe77d",
+      "content_markers": [
+        "public_T_hex",
+        "octra-bounty-target-seed-lpn-ay-v1"
+      ]
+    },
+    {
+      "oid": "8bb9eba4f64b954d363de792d1a8f6492669b607",
+      "names": [
+        "lpn_samples/ct00_l1_s0_pvac_prf_r_1.jsonl"
+      ],
+      "size": 17176023,
+      "sha256": "51dbbbe97845460c1e5402d4be482976ebeb7cab358a19c8c699c6363e507a64",
+      "content_markers": [
+        "public_T_hex",
+        "octra-bounty-target-seed-lpn-ay-v1"
+      ]
+    },
+    {
+      "oid": "8c6ec2f9dedc5f1979234153327b69b99757cb10",
+      "names": [
+        "secret.ct"
+      ],
+      "size": 570453,
+      "sha256": "8f38ed7706cca15fa5208de905cf3ee4456fafc3c72068d26ea46ac7b6fa3300",
+      "content_markers": []
+    },
+    {
+      "oid": "92d6e115e111cbfc7f5f7228859e6cd879bf2145",
+      "names": [
+        "REPORT.md"
+      ],
+      "size": 10126,
+      "sha256": "e26d0802fdf915bdebdec3e39223c3b76051631b2b2d6025725a248bebf68164",
+      "content_markers": [
+        "public_T_hex",
+        "lpn_s_bits",
+        "prf_k",
+        "sk.bin"
+      ]
+    },
+    {
+      "oid": "96fd212b812183662b503b64ee5ae0d0f2148cb5",
+      "names": [
+        "lpn_samples/ct02_l1_s0_pvac_prf_r_1.jsonl"
+      ],
+      "size": 17176022,
+      "sha256": "7aa9c75c13c00be79feb19437d81abece784d9ca79d527ed430660d318c50af2",
+      "content_markers": [
+        "public_T_hex",
+        "octra-bounty-target-seed-lpn-ay-v1"
+      ]
+    },
+    {
+      "oid": "9a6ebcbaf900f467fd87769eb445a4f2806a603d",
+      "names": [
+        "lpn_samples/ct10_l1_s0_pvac_prf_r_1.jsonl"
+      ],
+      "size": 17176024,
+      "sha256": "c944a07cc7207164e07d862fa8340e227bfe4118829ddb1b4a125cfae42d00b4",
+      "content_markers": [
+        "public_T_hex",
+        "octra-bounty-target-seed-lpn-ay-v1"
+      ]
+    },
+    {
+      "oid": "9ac4dcedefa232db086aa79cac3b665fc0c4a864",
+      "names": [
+        "lpn_samples/ct18_l0_s0_pvac_prf_r_1.jsonl"
+      ],
+      "size": 17176023,
+      "sha256": "29d26a376e3698c94a4596b377aef180201e927f6df18645dc901656941815dd",
+      "content_markers": [
+        "public_T_hex",
+        "octra-bounty-target-seed-lpn-ay-v1"
+      ]
+    },
+    {
+      "oid": "9ad1999c3940552c32029b40ab844812817fccb0",
+      "names": [
+        "lpn_samples/ct00_l0_s0_pvac_prf_r_1.jsonl"
+      ],
+      "size": 17176022,
+      "sha256": "c6a29620a6f5927c5bdac25eed3c280a0e52bfdfb2d7f893363f7721f1641920",
+      "content_markers": [
+        "public_T_hex",
+        "octra-bounty-target-seed-lpn-ay-v1"
+      ]
+    },
+    {
+      "oid": "9d7abc91aaf56c470e930369d29b285f1cc47931",
+      "names": [
+        "LPN_SAMPLE_ANALYSIS.md"
+      ],
+      "size": 3059,
+      "sha256": "98cc3460ac44055613d813ed3c928de9636bb303b44f3d6d397fd8d4958d8013",
+      "content_markers": [
+        "lpn_samples",
+        "lpn_s_bits",
+        "prf_k",
+        "sk.bin"
+      ]
+    },
+    {
+      "oid": "a2db7f7db9076140a22dd991d2c79e883e18357f",
+      "names": [
+        "lpn_samples/ct16_l0_s0_pvac_prf_r_1.jsonl"
+      ],
+      "size": 17176022,
+      "sha256": "c03caba5f632da7ae4b667f2dc0d20d7287d78fb7992e25d40e1c8f2984837eb",
+      "content_markers": [
+        "public_T_hex",
+        "octra-bounty-target-seed-lpn-ay-v1"
+      ]
+    },
+    {
+      "oid": "a5939840e69fed3d6e06d56813e5aef840339083",
+      "names": [
+        "lpn_samples/ct05_l1_s0_pvac_prf_r_1.jsonl"
+      ],
+      "size": 17176022,
+      "sha256": "01887b95628af218f162330d5f6fe990bcf4668a8909e4553e25b42832398e4f",
+      "content_markers": [
+        "public_T_hex",
+        "octra-bounty-target-seed-lpn-ay-v1"
+      ]
+    },
+    {
+      "oid": "a6ff3e102ccbf149c7013a0426b15f8ad117a089",
+      "names": [
+        "manifest.json"
+      ],
+      "size": 1001,
+      "sha256": "46b60fe7b6f6de3c84936d9c6d88b6aecc4c9ae3d2750f8272c2ca7f052ef86e",
+      "content_markers": [
+        "plaintext.txt",
+        "sk.bin"
+      ]
+    },
+    {
+      "oid": "ad28d39bde5b7fd77ebdb0cfceee194528c17901",
+      "names": [
+        "lpn_samples/ct01_l0_s0_pvac_prf_r_1.jsonl"
+      ],
+      "size": 17176022,
+      "sha256": "26d62ca5abe9d5628cfe47ffaf0054a4adfcdb1602577258eada813a89ea57bf",
+      "content_markers": [
+        "public_T_hex",
+        "octra-bounty-target-seed-lpn-ay-v1"
+      ]
+    },
+    {
+      "oid": "ad47b1b61f193d53fe6d36b38f4586a5e6e633c7",
+      "names": [
+        "ANALYSIS.md"
+      ],
+      "size": 12222,
+      "sha256": "0bdf655469509fb0833d3892ab1b92959f9f63c1a6ac04de02157c00cc1cb4fd",
+      "content_markers": [
+        "lpn_s_bits",
+        "prf_k",
+        "sk.bin"
+      ]
+    },
+    {
+      "oid": "ae201fb771287f90d6fabbab3667b5dad10247d5",
+      "names": [
+        "lpn_samples/ct11_l0_s0_pvac_prf_r_1.jsonl"
+      ],
+      "size": 17176024,
+      "sha256": "e20073b8e76d27f9968599b8197df31f4da07378cbafc78724898c64a163d76a",
+      "content_markers": [
+        "public_T_hex",
+        "octra-bounty-target-seed-lpn-ay-v1"
+      ]
+    },
+    {
+      "oid": "b03443ed8acdbf4532d8d48c94291377269fe5b8",
+      "names": [
+        "lpn_samples/ct17_l0_s0_pvac_prf_r_1.jsonl"
+      ],
+      "size": 17176023,
+      "sha256": "07fd5791b8116006a229fd77141360aaee4d77f882743e9fdb8ac064fd3552af",
+      "content_markers": [
+        "public_T_hex",
+        "octra-bounty-target-seed-lpn-ay-v1"
+      ]
+    },
+    {
+      "oid": "b052a2531d3ec11175a81a31c2eee67b453ba77e",
+      "names": [
+        "lpn_samples/ct15_l1_s0_pvac_prf_r_1.jsonl"
+      ],
+      "size": 17176023,
+      "sha256": "53f6b7bce389de4bee498c95bd8ea7d221ebfab8386cbfe6f49cdc5e67829636",
+      "content_markers": [
+        "public_T_hex",
+        "octra-bounty-target-seed-lpn-ay-v1"
+      ]
+    },
+    {
+      "oid": "b111b8da12d4188767696bc4045c0afbc4f8157d",
+      "names": [
+        "report/index.html"
+      ],
+      "size": 13093,
+      "sha256": "0d322c5ce0425b47d53fe1fa7a212a97539fdf9e680afce6bdfc2ab7d3c2c22f",
+      "content_markers": [
+        "prf_k"
+      ]
+    },
+    {
+      "oid": "b17a84e48704f83d3f4690f16b9bca3d7b226a1f",
+      "names": [
+        "lpn_samples/ct20_l1_s0_pvac_prf_r_1.jsonl"
+      ],
+      "size": 17176024,
+      "sha256": "5207e6cab91570baeb8251dc227d3acd5b2ac279e06022cb5d69d7ec2466bd84",
+      "content_markers": [
+        "public_T_hex",
+        "octra-bounty-target-seed-lpn-ay-v1"
+      ]
+    },
+    {
+      "oid": "b71b04a9067ea3eab0b0d7ebde994883255bc7ff",
+      "names": [
+        "ANALYSIS.md"
+      ],
+      "size": 7092,
+      "sha256": "197a5fe995284964f5ea414509bce956d5a42c3b84e0571d56c0ec78cb0baee1",
+      "content_markers": [
+        "lpn_s_bits",
+        "prf_k"
+      ]
+    },
+    {
+      "oid": "bd9480597a23373523c5bb7014c29bb086363c5c",
+      "names": [
+        "tools/plaintext_recovery_v2.cpp"
+      ],
+      "size": 6534,
+      "sha256": "b6a61c702d48cd2240e458a4ef65d448ee101ee1f42e045ea6e2eb542a93b7f1",
+      "content_markers": []
+    },
+    {
+      "oid": "c0dff35f8107638e51b3630aeb2cdca785f85f03",
+      "names": [
+        "lpn_samples/ct08_l1_s0_pvac_prf_r_1.jsonl"
+      ],
+      "size": 17176023,
+      "sha256": "65d977f7f2ec559d600f6e707f534f8a887f967477e49a9263e31b67c79e3db6",
+      "content_markers": [
+        "public_T_hex",
+        "octra-bounty-target-seed-lpn-ay-v1"
+      ]
+    },
+    {
+      "oid": "c2a81abe20db311dbe723544ab8645681c05503c",
+      "names": [
+        "REPORT.md"
+      ],
+      "size": 5410,
+      "sha256": "7d935cdae8935bf3b1f41790db69a4cafb3e5c17ec4f46a53a51e531eb17f6fe",
+      "content_markers": [
+        "lpn_s_bits",
+        "prf_k",
+        "plaintext.txt"
+      ]
+    },
+    {
+      "oid": "c379b2d297e45cb8c159c4e6cc8c3570bf0a1207",
+      "names": [
+        "lpn_samples/ct06_l0_s0_pvac_prf_r_1.jsonl"
+      ],
+      "size": 17176023,
+      "sha256": "c9fda55594e0d9386b73dbf83bd21b4bd4e23798aac5973da1f8e956f6223de1",
+      "content_markers": [
+        "public_T_hex",
+        "octra-bounty-target-seed-lpn-ay-v1"
+      ]
+    },
+    {
+      "oid": "c3b3d8b084ba52a6972be421f2cd8c4950663bb7",
+      "names": [
+        "lpn_samples/ct13_l1_s0_pvac_prf_r_1.jsonl"
+      ],
+      "size": 17176024,
+      "sha256": "583781369794e522b2385646378c33bcff747e159475d031468e04ea91ca936a",
+      "content_markers": [
+        "public_T_hex",
+        "octra-bounty-target-seed-lpn-ay-v1"
+      ]
+    },
+    {
+      "oid": "c5b55776491a0e6c4fc3b957bb3b68b20711a554",
+      "names": [
+        "lpn_samples/ct04_l1_s0_pvac_prf_r_1.jsonl"
+      ],
+      "size": 17176023,
+      "sha256": "6a693abfab6597a6794995b9e606e1af17f7df982d22b443d97b1d7a310417a2",
+      "content_markers": [
+        "public_T_hex",
+        "octra-bounty-target-seed-lpn-ay-v1"
+      ]
+    },
+    {
+      "oid": "ca080c61b0ea973352d9fb98a6be331d035b2181",
+      "names": [
+        "lpn_samples/ct06_l1_s0_pvac_prf_r_1.jsonl"
+      ],
+      "size": 17176022,
+      "sha256": "cbe629a018e1a167bba0a0535daab21cc7832524b032f237822b47c4bf6e38b1",
+      "content_markers": [
+        "public_T_hex",
+        "octra-bounty-target-seed-lpn-ay-v1"
+      ]
+    },
+    {
+      "oid": "ca11a853d37be9d423d3ef7f65a57f879a3d1e15",
+      "names": [
+        "lpn_samples/ct16_l1_s0_pvac_prf_r_1.jsonl"
+      ],
+      "size": 17176024,
+      "sha256": "73f1d143dd09be5143e068deb232398c5eda02d878080af78c9629f75399583f",
+      "content_markers": [
+        "public_T_hex",
+        "octra-bounty-target-seed-lpn-ay-v1"
+      ]
+    },
+    {
+      "oid": "d43f490471c380ececda288f620c75ea000c0571",
+      "names": [
+        "lpn_samples/ct19_l1_s0_pvac_prf_r_1.jsonl"
+      ],
+      "size": 17176023,
+      "sha256": "f4d5273d12e656b3f19bf618c6abd44863f47ee4e35575d568d407c79cc22fb3",
+      "content_markers": [
+        "public_T_hex",
+        "octra-bounty-target-seed-lpn-ay-v1"
+      ]
+    },
+    {
+      "oid": "d84014eb75b46f715db580bd21412dc02c84fc6d",
+      "names": [
+        "source/hfhe_seed_artifact.cpp"
+      ],
+      "size": 9001,
+      "sha256": "06aeb77b8f0621788732834d2f0456b350df43f706ee085cedf7e32f22c667cd",
+      "content_markers": [
+        "sk.bin"
+      ]
+    },
+    {
+      "oid": "d95879417d08423b9b8f26b3c9946272e0b4d973",
+      "names": [
+        "secret.ct"
+      ],
+      "size": 1963107,
+      "sha256": "5da7f82724838bf7a8c4fe95fbf6d573b621c04c9b2f7ae849545cf60223fbab",
+      "content_markers": []
+    },
+    {
+      "oid": "db4fad091c0a47f35b917c8c65d4e31fd7066d3b",
+      "names": [
+        "SHA256SUMS"
+      ],
+      "size": 5525,
+      "sha256": "70a2a56f1c583ddc191b382e75174b987c64d97d79f35c78ad743624e310769f",
+      "content_markers": [
+        "lpn_samples"
+      ]
+    },
+    {
+      "oid": "db7d1aca44e9ff4122317413c403e4f592aa2ce8",
+      "names": [
+        "source/tools/verify_lpn_sample_binding.cpp"
+      ],
+      "size": 6376,
+      "sha256": "2d885444cf571b1e9f513c700f3edde8b0a80443b25c13f8b480f77e307beee7",
+      "content_markers": [
+        "public_T_hex"
+      ]
+    },
+    {
+      "oid": "de7686956003944250d6788cadab639eef407edb",
+      "names": [
+        "lpn_samples/ct02_l0_s0_pvac_prf_r_1.jsonl"
+      ],
+      "size": 17176021,
+      "sha256": "e0570fa1d88f6caf634e49fafafff6d35287cbacbf17a8532ae208a6dea7e153",
+      "content_markers": [
+        "public_T_hex",
+        "octra-bounty-target-seed-lpn-ay-v1"
+      ]
+    },
+    {
+      "oid": "deb4a05ce1d95976ffe55d5145653b35e34d6b22",
+      "names": [
+        "README_RECOVERY.md"
+      ],
+      "size": 5644,
+      "sha256": "8eafaf3eea295c3ecbed6ff627f716b7c21390f930e421d7a7f5028e0a5eb858",
+      "content_markers": [
+        "sk.bin"
+      ]
+    },
+    {
+      "oid": "e3f8fb2544077f55caf78fdbda373a125bbfd759",
+      "names": [
+        "tools/lpn_estimate.py"
+      ],
+      "size": 1504,
+      "sha256": "4a510f12514c66587d2f49a18b045dd0f24e01c9731afc51f813523fa38af053",
+      "content_markers": []
+    },
+    {
+      "oid": "e7b28867eb9dd36e8b1541288956418ff87f7929",
+      "names": [
+        "tools/lpn_demo.py"
+      ],
+      "size": 1902,
+      "sha256": "ac8db15ac0d0f7e37a8ba693e576ba157c1394be5fc089eb757a0c134033c746",
+      "content_markers": [
+        "prf_k"
+      ]
+    },
+    {
+      "oid": "eeb4ffd8f4c7ae26b93e767460b288e67cd8362a",
+      "names": [
+        "source/pvac_artifact_serialize.hpp"
+      ],
+      "size": 14767,
+      "sha256": "33f3a04fb5cdfcb9486f30f1c19c1e9b61604adcf079a440346a4a99044e9664",
+      "content_markers": [
+        "lpn_s_bits",
+        "prf_k"
+      ]
+    },
+    {
+      "oid": "f72f2fb47df5f9d1efcdbabc96b1f1d96b3c6385",
+      "names": [
+        "lpn_samples/ct15_l0_s0_pvac_prf_r_1.jsonl"
+      ],
+      "size": 17176023,
+      "sha256": "2d9fe70f2d7294ccc9a413af17c848bf109269848c42b26e2e486c33cdfe7860",
+      "content_markers": [
+        "public_T_hex",
+        "octra-bounty-target-seed-lpn-ay-v1"
+      ]
+    },
+    {
+      "oid": "fb250e9f90ba9cb7599fbb3fbae87bdba9ce5e95",
+      "names": [
+        "lpn_samples/ct17_l1_s0_pvac_prf_r_1.jsonl"
+      ],
+      "size": 17176024,
+      "sha256": "7fcdadece8d1d3cc3ae1c4c222bfe5f3e085123e313b9c1ec8fbf3d6a63c11e1",
+      "content_markers": [
+        "public_T_hex",
+        "octra-bounty-target-seed-lpn-ay-v1"
+      ]
+    },
+    {
+      "oid": "fb35145d37b8651b2fa04efedcfdc21fd7a3aa8f",
+      "names": [
+        "lpn_samples/ct01_l1_s0_pvac_prf_r_1.jsonl"
+      ],
+      "size": 17176023,
+      "sha256": "92f1787398d056b4dcba8b06d3b6f698cc79860bde50a47ef38509de388adf75",
+      "content_markers": [
+        "public_T_hex",
+        "octra-bounty-target-seed-lpn-ay-v1"
+      ]
+    },
+    {
+      "oid": "fb8bfa3a7e42a1a94056504c209f97601de937b6",
+      "names": [
+        "SHA256SUMS"
+      ],
+      "size": 5525,
+      "sha256": "4ef5ffaa167c93f5856b0aeea5de10e7bfb409efeee498df707a4b3417a1f52e",
+      "content_markers": [
+        "lpn_samples"
+      ]
+    }
+  ],
+  "producer_candidates": [],
+  "secret_candidates": [],
+  "verdict": "NO_PUBLIC_LPN_PRODUCER_OR_ACTIVE_SECRET_FOUND",
+  "limitation": "Unreachable objects are local object-cache evidence; public availability is established only for fetched refs/history."
+}

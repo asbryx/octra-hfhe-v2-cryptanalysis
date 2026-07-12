@@ -1,0 +1,11 @@
+{
+  "bits": 48,
+  "bound": 281474976710656,
+  "baby_width": 16777216,
+  "self_check": "PASS",
+  "H_hex": "c8bbb3f6edabb3bd7beb0e03c1630bcbffc77d27defbc1cce416d6f7f9408961",
+  "positive_found": false,
+  "negative_found": false,
+  "seconds": 513.733273,
+  "verdict": "NO_SIGNED_RELATION_IN_BOUND"
+}

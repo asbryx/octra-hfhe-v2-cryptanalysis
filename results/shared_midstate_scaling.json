@@ -1,0 +1,73 @@
+{
+  "model": "real SHA-256 KDF and AES-256 first block; truncated candidate family",
+  "active_transcripts": 44,
+  "runs": [
+    {
+      "bits": 10,
+      "candidates_tested": 1008,
+      "true_value": 1007,
+      "one_transcript": {
+        "seconds": 0.011894700000993907,
+        "evaluations": 1008
+      },
+      "forty_four_early_reject": {
+        "seconds": 0.013615199946798384,
+        "evaluations": 1051
+      },
+      "extra_evaluations_over_one": 43,
+      "log2_candidates": 9
+    },
+    {
+      "bits": 12,
+      "candidates_tested": 4080,
+      "true_value": 4079,
+      "one_transcript": {
+        "seconds": 0.046078599989414215,
+        "evaluations": 4080
+      },
+      "forty_four_early_reject": {
+        "seconds": 0.04782879998674616,
+        "evaluations": 4123
+      },
+      "extra_evaluations_over_one": 43,
+      "log2_candidates": 11
+    },
+    {
+      "bits": 14,
+      "candidates_tested": 16368,
+      "true_value": 16367,
+      "one_transcript": {
+        "seconds": 0.19035260000964627,
+        "evaluations": 16368
+      },
+      "forty_four_early_reject": {
+        "seconds": 0.19437109999125823,
+        "evaluations": 16411
+      },
+      "extra_evaluations_over_one": 43,
+      "log2_candidates": 13
+    },
+    {
+      "bits": 16,
+      "candidates_tested": 65520,
+      "true_value": 65519,
+      "one_transcript": {
+        "seconds": 0.8026907000457868,
+        "evaluations": 65520
+      },
+      "forty_four_early_reject": {
+        "seconds": 0.8025818000314757,
+        "evaluations": 65563
+      },
+      "extra_evaluations_over_one": 43,
+      "log2_candidates": 15
+    }
+  ],
+  "candidate_growth_ratios": [
+    4.0476190476190474,
+    4.011764705882353,
+    4.002932551319648
+  ],
+  "verdict": "MULTI_TARGET_IMPROVES_VERIFICATION_CONSTANT_NOT_SEARCH_EXPONENT",
+  "target_implication": "One R1 transcript already rejects wrong candidates; 43 more transcripts do not generate candidates or reduce the 256-bit candidate space."
+}

@@ -23,6 +23,9 @@ The public update exposes R1 `(A,y)` samples only. It does not expose the PRF ke
 - PC/R coupling tested; mathematically real, not a practical target verifier.
 - Finite public candidate family checked: 1,188 comparisons, no match.
 - Wire, generator, wallet schema, repository history, forks, and independent smoke-ui findings reviewed.
+- Cross-object rho cancellation has zero left kernel; shared-midstate enumeration keeps the full exponent.
+- Known plaintext still leaves about `2^2794` inverse assignments; no small `H` relation below `2^48`.
+- R endpoint, simple LPN covert channels, and public LPN-producer/secret searches are closed.
 
 ## Reopen conditions
 
@@ -39,6 +42,7 @@ Reopen only for one of:
 
 - [`research/reconstruction-audit.md`](research/reconstruction-audit.md)
 - [`research/final-exhaustion.md`](research/final-exhaustion.md)
+- [`research/moonshot-closures.md`](research/moonshot-closures.md)
 - [`docs/smoke-ui-comparison.md`](docs/smoke-ui-comparison.md)
 
 This is a negative result, not an impossibility proof.

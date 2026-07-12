@@ -69,6 +69,19 @@ A full PRF-key candidate determines the PC blinding term. The exact wrapped-PC e
 
 Opening that range still requires roughly `2^63.5` generic group operations. Public R1 data then determines only the product of the R2 and R3 cores, not either factor, so this remains less useful than checking the same PRF-key candidate directly against one published R1 row.
 
+### Moonshot closure batch
+
+The final source-first batch also closed the remaining cheap edge cases:
+
+- no cross-object linear combination cancels the 44 disjoint PC blindings;
+- 44 SHA-derived AES transcripts improve candidate verification, not the search exponent;
+- even a fully known plaintext leaves 22 field degrees and about `2^2794` inverse assignments;
+- official Ristretto BSGS finds no `H = +/-kG` relation for `|k| < 2^48`;
+- no downstream `R` mapping/product/inversion collapse or simple LPN covert channel was found;
+- no public LPN producer, active secret, or generation log was found in current refs, PR heads, or scanned Git objects.
+
+See [`research/moonshot-closures.md`](research/moonshot-closures.md) for exact equations, measured outputs, provenance limits, and reproduction paths.
+
 ## Comparison with smoke-ui
 
 [`smoke-ui/octra-hfhe-v2-security-assessment`](https://github.com/smoke-ui/octra-hfhe-v2-security-assessment) is a useful independent assessment with strong wire-format, runtime, subgroup, compiler, and methodology controls. Its assessed challenge snapshot is `0d08e96`, before the LPN corpus was added.
@@ -93,6 +106,7 @@ STATUS.md                       Compact decision record and reopen conditions
 METHODOLOGY.md                  Evidence and reporting standards
 research/reconstruction-audit.md Source, timeline, wire, and algebra audit
 research/final-exhaustion.md     Full corpus and mathematical boundary report
+research/moonshot-closures.md    Final edge-case probes and measured closures
 docs/smoke-ui-comparison.md      Comparison with the smoke-ui assessment
 tools/                           Small runnable probes
 results/                         Committed measured JSON outputs
@@ -115,6 +129,11 @@ python tools/lpn_restricted_ladder.py --model-only
 python tools/lpn_restricted_ladder.py
 python tools/heuristic_ladder.py --is-only --sizes 8,12,16,20,24,28,32
 python tools/qp04_joint_equations_toy.py
+python tools/rho_sha_layout.py results/active_equation_map.json --out results/rho_sha_layout.json
+python tools/plaintext_constraint_bridge.py results/active_equation_map.json --out results/plaintext_constraint_bridge.json
+python tools/shared_midstate_scaling.py --bits 10,12,14,16 --out results/shared_midstate_scaling.json
+python tools/lpn_stego_scan.py path/to/lpn_samples --out results/lpn_stego_scan.json
+python tools/scan_public_objects.py path/to/hfhe-challenge --out results/public_object_scan.json
 ```
 
 For the exact one-file rank/dependency audit, download the canonical file next to the tool or pass it explicitly:

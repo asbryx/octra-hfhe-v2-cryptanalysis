@@ -1,0 +1,43 @@
+{
+  "input": {
+    "equation_map": "results/active_equation_map.json",
+    "layers": 44,
+    "unique_nonces": 44,
+    "slot": 0
+  },
+  "message_layout": {
+    "tag_bytes": 12,
+    "key_bytes": 32,
+    "nonce_bytes": 16,
+    "slot_bytes": 8,
+    "message_bytes": 68,
+    "sha_blocks": 2,
+    "common_prefix_bytes": 44,
+    "shared_complete_prefix_blocks": 0,
+    "unique_block0": 44,
+    "unique_block1": 1,
+    "block1_hex": "00000000800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000220"
+  },
+  "dummy_key_checks": {
+    "key_hex": "000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f",
+    "unique_raw_digests": 44,
+    "unique_reduced_scalars": 44,
+    "key_bits_affecting_raw_digest": 256,
+    "key_bits_affecting_reduced_scalar": 256
+  },
+  "scalar_reduction": {
+    "order_bit_length": 253,
+    "log2_order": 252.0,
+    "raw_digest_bits": 256,
+    "quotient_floor_2^256_over_L": 15,
+    "residue_classes_with_one_extra_preimage": 7237005577332262213973186563042994240413239274941949949428319933631315875101,
+    "preimages_per_scalar_min": 15,
+    "preimages_per_scalar_max": 16
+  },
+  "cryptanalytic_gates": {
+    "length_extension_recovers_key": false,
+    "shared_full_sha_midstate_across_nonces": false,
+    "scalar_reduction_is_keyspace_search_reduction": false,
+    "note": "The secret key enters block 0 before each unique nonce. Reduction loses about four output bits but does not provide a way to enumerate matching 256-bit keys."
+  }
+}

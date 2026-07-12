@@ -1,0 +1,177 @@
+{
+  "input": {
+    "equation_map": "results/active_equation_map.json",
+    "active_objects": 22,
+    "active_layers": 44,
+    "target_address": "octC5eR9pLGKbpzTbDgHowkFt8HW7LZYb2gzehzxHamxuAZ"
+  },
+  "packing": {
+    "length_cipher": 1,
+    "text_ciphers": 21,
+    "bytes_per_text_cipher": 15,
+    "possible_lengths": [
+      301,
+      315
+    ]
+  },
+  "constructive_runs": [
+    {
+      "length": 301,
+      "payload_has_target_address": true,
+      "text_blocks": 21,
+      "last_block_data_bytes": 1,
+      "last_block_zero_suffix_bytes": 14,
+      "all_22_equations_satisfied": true,
+      "all_44_inverse_witnesses_nonzero": true,
+      "minimum_log2_inverse_assignments_for_fixed_plaintext": 2794.0
+    },
+    {
+      "length": 302,
+      "payload_has_target_address": true,
+      "text_blocks": 21,
+      "last_block_data_bytes": 2,
+      "last_block_zero_suffix_bytes": 13,
+      "all_22_equations_satisfied": true,
+      "all_44_inverse_witnesses_nonzero": true,
+      "minimum_log2_inverse_assignments_for_fixed_plaintext": 2794.0
+    },
+    {
+      "length": 303,
+      "payload_has_target_address": true,
+      "text_blocks": 21,
+      "last_block_data_bytes": 3,
+      "last_block_zero_suffix_bytes": 12,
+      "all_22_equations_satisfied": true,
+      "all_44_inverse_witnesses_nonzero": true,
+      "minimum_log2_inverse_assignments_for_fixed_plaintext": 2794.0
+    },
+    {
+      "length": 304,
+      "payload_has_target_address": true,
+      "text_blocks": 21,
+      "last_block_data_bytes": 4,
+      "last_block_zero_suffix_bytes": 11,
+      "all_22_equations_satisfied": true,
+      "all_44_inverse_witnesses_nonzero": true,
+      "minimum_log2_inverse_assignments_for_fixed_plaintext": 2794.0
+    },
+    {
+      "length": 305,
+      "payload_has_target_address": true,
+      "text_blocks": 21,
+      "last_block_data_bytes": 5,
+      "last_block_zero_suffix_bytes": 10,
+      "all_22_equations_satisfied": true,
+      "all_44_inverse_witnesses_nonzero": true,
+      "minimum_log2_inverse_assignments_for_fixed_plaintext": 2794.0
+    },
+    {
+      "length": 306,
+      "payload_has_target_address": true,
+      "text_blocks": 21,
+      "last_block_data_bytes": 6,
+      "last_block_zero_suffix_bytes": 9,
+      "all_22_equations_satisfied": true,
+      "all_44_inverse_witnesses_nonzero": true,
+      "minimum_log2_inverse_assignments_for_fixed_plaintext": 2794.0
+    },
+    {
+      "length": 307,
+      "payload_has_target_address": true,
+      "text_blocks": 21,
+      "last_block_data_bytes": 7,
+      "last_block_zero_suffix_bytes": 8,
+      "all_22_equations_satisfied": true,
+      "all_44_inverse_witnesses_nonzero": true,
+      "minimum_log2_inverse_assignments_for_fixed_plaintext": 2794.0
+    },
+    {
+      "length": 308,
+      "payload_has_target_address": true,
+      "text_blocks": 21,
+      "last_block_data_bytes": 8,
+      "last_block_zero_suffix_bytes": 7,
+      "all_22_equations_satisfied": true,
+      "all_44_inverse_witnesses_nonzero": true,
+      "minimum_log2_inverse_assignments_for_fixed_plaintext": 2794.0
+    },
+    {
+      "length": 309,
+      "payload_has_target_address": true,
+      "text_blocks": 21,
+      "last_block_data_bytes": 9,
+      "last_block_zero_suffix_bytes": 6,
+      "all_22_equations_satisfied": true,
+      "all_44_inverse_witnesses_nonzero": true,
+      "minimum_log2_inverse_assignments_for_fixed_plaintext": 2794.0
+    },
+    {
+      "length": 310,
+      "payload_has_target_address": true,
+      "text_blocks": 21,
+      "last_block_data_bytes": 10,
+      "last_block_zero_suffix_bytes": 5,
+      "all_22_equations_satisfied": true,
+      "all_44_inverse_witnesses_nonzero": true,
+      "minimum_log2_inverse_assignments_for_fixed_plaintext": 2794.0
+    },
+    {
+      "length": 311,
+      "payload_has_target_address": true,
+      "text_blocks": 21,
+      "last_block_data_bytes": 11,
+      "last_block_zero_suffix_bytes": 4,
+      "all_22_equations_satisfied": true,
+      "all_44_inverse_witnesses_nonzero": true,
+      "minimum_log2_inverse_assignments_for_fixed_plaintext": 2794.0
+    },
+    {
+      "length": 312,
+      "payload_has_target_address": true,
+      "text_blocks": 21,
+      "last_block_data_bytes": 12,
+      "last_block_zero_suffix_bytes": 3,
+      "all_22_equations_satisfied": true,
+      "all_44_inverse_witnesses_nonzero": true,
+      "minimum_log2_inverse_assignments_for_fixed_plaintext": 2794.0
+    },
+    {
+      "length": 313,
+      "payload_has_target_address": true,
+      "text_blocks": 21,
+      "last_block_data_bytes": 13,
+      "last_block_zero_suffix_bytes": 2,
+      "all_22_equations_satisfied": true,
+      "all_44_inverse_witnesses_nonzero": true,
+      "minimum_log2_inverse_assignments_for_fixed_plaintext": 2794.0
+    },
+    {
+      "length": 314,
+      "payload_has_target_address": true,
+      "text_blocks": 21,
+      "last_block_data_bytes": 14,
+      "last_block_zero_suffix_bytes": 1,
+      "all_22_equations_satisfied": true,
+      "all_44_inverse_witnesses_nonzero": true,
+      "minimum_log2_inverse_assignments_for_fixed_plaintext": 2794.0
+    },
+    {
+      "length": 315,
+      "payload_has_target_address": true,
+      "text_blocks": 21,
+      "last_block_data_bytes": 15,
+      "last_block_zero_suffix_bytes": 0,
+      "all_22_equations_satisfied": true,
+      "all_44_inverse_witnesses_nonzero": true,
+      "minimum_log2_inverse_assignments_for_fixed_plaintext": 2794.0
+    }
+  ],
+  "result": {
+    "minimum_log2_inverse_assignments_even_if_plaintext_fully_known": 2794.0,
+    "independent_field_degrees_remaining": 22,
+    "address_constraint_generates_R_candidates": false,
+    "plaintext_constraints_eliminate_any_layer_inverse_degree": false,
+    "verdict": "PLAINTEXT_AND_ADDRESS_CONSTRAINTS_DO_NOT_BRIDGE_TO_R",
+    "reason": "Each object contributes one equation in two independent nonzero layer inverses. For fixed plaintext, each object retains at least p-2 valid inverse pairs."
+  }
+}

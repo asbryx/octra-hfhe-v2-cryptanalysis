@@ -1,0 +1,4 @@
+hash_boundary=PASS
+nonzero_product=PASS
+inverse_identity=PASS
+verdict=R_ENDPOINT_HAS_NO_PUBLIC_OR_SMALL_FAMILY_COLLAPSE
