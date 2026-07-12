@@ -65,9 +65,9 @@ These numbers are models and bounded experiments, not a formal impossibility pro
 
 ### PC / R coupling
 
-A full PRF-key candidate determines the PC blinding term. The remaining point should encode a centered 127-bit scalar, but checking or opening that range requires a generic bounded group search of roughly `2^63.5` operations. After such an opening, public R1 data determines only the product of the R2 and R3 cores, not either factor.
+A full PRF-key candidate determines the PC blinding term. The exact wrapped-PC equation also contains a field-to-scalar carry: after removing the candidate blinding and plaintext point, the residual is `[q(2^127-1)]G` for a signed roughly 127-bit `q`, not the identity. The official-code fixture `tools/joint_pc_official.cpp` verifies this corrected equation with real Ristretto operations.
 
-This relation is mathematically nontrivial but less useful than checking the same PRF-key candidate directly against one published R1 row.
+Opening that range still requires roughly `2^63.5` generic group operations. Public R1 data then determines only the product of the R2 and R3 cores, not either factor, so this remains less useful than checking the same PRF-key candidate directly against one published R1 row.
 
 ## Comparison with smoke-ui
 

@@ -203,7 +203,15 @@ No schedule tested reduced the residual dimension below 4,036, created a rank de
 
 ### QP-04 final status
 
-The PC/R relation is nontrivial but not a practical active-target verifier. For a full candidate `prf_k`, removing candidate `rho*H` leaves a point that should be a centered 127-bit multiple of `G`. Testing or opening that range requires a generic bounded group search of about `2^63.5` operations. The toy model represents group elements as known integer exponents and therefore gives that opening for free.
+The tempting zero-residual equation for a wrapped value is not exact because the map from the 127-bit field into Ristretto scalars is not multiplicatively homomorphic. With public layer numerators `T_i`, inverses `x_i = R_i^-1`, and PC blindings `rho_i`, the corrected equation is:
+
+```text
+sum([T_i] PC_i) - [sum(T_i rho_i)] H - [center(v)] G = [q p] G
+```
+
+Here `p = 2^127 - 1` and `q` is the signed carry created by lifting the field identity `sum(T_i x_i) = v mod p` into scalar arithmetic. Its range is still about 127 bits. The official-library fixture in `tools/joint_pc_official.cpp` reproduces a seeded wrapped encryption and verifies decryption, both public numerator identities, both PC openings, and the corrected Ristretto point identity under `-O0` and `-O3`; both outputs are identical to `results/joint_pc_official.out`.
+
+For a full candidate `prf_k`, removing `sum(T_i rho_i)H` therefore leaves a bounded-discrete-log problem rather than an identity test. Generic evaluation remains about `2^63.5` group operations. The toy model represents group elements as known integer exponents and gives that opening for free.
 
 After such an opening, public R1 data determines only `core_R2*core_R3`, not either factor. This is weaker and more expensive than checking a candidate `prf_k` directly against one public R1 row.
 
