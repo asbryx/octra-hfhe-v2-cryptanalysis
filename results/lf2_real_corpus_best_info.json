@@ -1,0 +1,86 @@
+{
+  "input": {
+    "files": 44,
+    "rows": 720896,
+    "columns": 4096,
+    "tau": 0.125
+  },
+  "method": {
+    "name": "LF2 pivot-per-bucket",
+    "schedule": [
+      15,
+      15,
+      16
+    ]
+  },
+  "stages": [
+    {
+      "input_rows": 720896,
+      "output_rows": 688128,
+      "occupied_buckets": 32768,
+      "expected_occupied_uniform": 32767.99999086254,
+      "empty_buckets": 0,
+      "max_bucket": 44,
+      "mean_nonempty_bucket": 22.0,
+      "y_rate": 0.49986194428943453,
+      "seconds": 0.4596410999656655,
+      "level": 1,
+      "block_width": 15,
+      "eliminated_columns": 15,
+      "residual_columns": 4081,
+      "ideal_independent_bias": 0.5625,
+      "optimistic_capacity_bits": 166610.60933037905
+    },
+    {
+      "input_rows": 688128,
+      "output_rows": 655360,
+      "occupied_buckets": 32768,
+      "expected_occupied_uniform": 32767.999975161427,
+      "empty_buckets": 0,
+      "max_bucket": 40,
+      "mean_nonempty_bucket": 21.0,
+      "y_rate": 0.5001907348632812,
+      "seconds": 0.46041020000120625,
+      "level": 2,
+      "block_width": 15,
+      "eliminated_columns": 30,
+      "residual_columns": 4066,
+      "ideal_independent_bias": 0.31640625,
+      "optimistic_capacity_bits": 48150.72746104808
+    },
+    {
+      "input_rows": 655360,
+      "output_rows": 589829,
+      "occupied_buckets": 65531,
+      "expected_occupied_uniform": 65533.02489719638,
+      "empty_buckets": 5,
+      "max_bucket": 31,
+      "mean_nonempty_bucket": 10.000762997665227,
+      "y_rate": 0.5005535502662636,
+      "seconds": 0.4199586000177078,
+      "level": 3,
+      "block_width": 16,
+      "eliminated_columns": 46,
+      "residual_columns": 4050,
+      "ideal_independent_bias": 0.1001129150390625,
+      "optimistic_capacity_bits": 4271.482710419648
+    }
+  ],
+  "final": {
+    "residual_columns": 4050,
+    "rank_A": 4050,
+    "rank_Ay": 4051,
+    "first_full_rank_A_at": 4053,
+    "first_full_rank_Ay_at": 4053,
+    "y_in_column_span_of_A": false,
+    "rows_scanned": 4053,
+    "fingerprint_collision_pairs": 0,
+    "exact_duplicate_pairs": 0,
+    "y_rate": 0.5005535502662636
+  },
+  "seconds": {
+    "load": 3.6231680000200868,
+    "total": 6.360906000016257
+  },
+  "interpretation": "Prefix reduction only; no exhaustive final decoder is attempted."
+}

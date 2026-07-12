@@ -1,0 +1,80 @@
+{
+  "input": {
+    "files": 44,
+    "rows": 720896,
+    "columns": 4096,
+    "tau": 0.125
+  },
+  "method": {
+    "name": "LF2 pivot-per-bucket",
+    "block": 15,
+    "rounds": 3
+  },
+  "stages": [
+    {
+      "input_rows": 720896,
+      "output_rows": 688128,
+      "occupied_buckets": 32768,
+      "expected_occupied_uniform": 32767.99999086254,
+      "empty_buckets": 0,
+      "max_bucket": 44,
+      "mean_nonempty_bucket": 22.0,
+      "y_rate": 0.49986194428943453,
+      "seconds": 0.5794151999871247,
+      "level": 1,
+      "eliminated_columns": 15,
+      "residual_columns": 4081,
+      "ideal_independent_bias": 0.5625,
+      "optimistic_capacity_bits": 166610.60933037905
+    },
+    {
+      "input_rows": 688128,
+      "output_rows": 655360,
+      "occupied_buckets": 32768,
+      "expected_occupied_uniform": 32767.999975161427,
+      "empty_buckets": 0,
+      "max_bucket": 40,
+      "mean_nonempty_bucket": 21.0,
+      "y_rate": 0.5001907348632812,
+      "seconds": 0.6131440000026487,
+      "level": 2,
+      "eliminated_columns": 30,
+      "residual_columns": 4066,
+      "ideal_independent_bias": 0.31640625,
+      "optimistic_capacity_bits": 48150.72746104808
+    },
+    {
+      "input_rows": 655360,
+      "output_rows": 622592,
+      "occupied_buckets": 32768,
+      "expected_occupied_uniform": 32767.99993248073,
+      "empty_buckets": 0,
+      "max_bucket": 41,
+      "mean_nonempty_bucket": 20.0,
+      "y_rate": 0.4998731111225329,
+      "seconds": 0.5572187000070699,
+      "level": 3,
+      "eliminated_columns": 45,
+      "residual_columns": 4051,
+      "ideal_independent_bias": 0.1001129150390625,
+      "optimistic_capacity_bits": 4508.749084303399
+    }
+  ],
+  "final": {
+    "residual_columns": 4051,
+    "rank_A": 4051,
+    "rank_Ay": 4052,
+    "first_full_rank_A_at": 4052,
+    "first_full_rank_Ay_at": 4054,
+    "y_in_column_span_of_A": false,
+    "rows_scanned": 4054,
+    "fingerprint_collision_pairs": 0,
+    "exact_duplicate_pairs": 0,
+    "y_rate": 0.4998731111225329
+  },
+  "seconds": {
+    "load": 4.2534759000409395,
+    "total": 7.877102500002366
+  },
+  "interpretation": "Prefix reduction only; no exhaustive final decoder is attempted."
+}

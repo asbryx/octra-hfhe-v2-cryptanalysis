@@ -186,6 +186,21 @@ Information-set experiments through `n=60` stopped using only the public all-row
 
 This validates the implementation and public verifier, not a shortcut: at `n=4096`, the same method returns to the Prange exponent above.
 
+### Real-corpus LF2 runs
+
+The complete 720,896-row corpus was then processed directly rather than only modeled.
+
+```text
+pivot LF2 [15,15,15]  -> 622,592 rows, 4,051 residual columns, full rank
+pivot LF2 [15,15,15,15] -> 589,824 rows, 4,036 residual columns, full rank
+pivot LF2 [15,15,16]  -> 589,829 rows, 4,050 residual columns, full rank
+all-pairs [17,20,21]  -> 837,304 rows, 4,038 residual columns, full rank
+```
+
+The fourth pivot round leaves only about 43 optimistic Shannon-information bits for 4,036 unknowns. The all-pairs schedule has a larger naive row count, but those rows are correlated combinations of the same input corpus. It produced 837,175 unique rows and only 129 duplicate excess rows across six groups. The largest duplicate group is the zero row (109 copies, all label zero); no duplicate group has conflicting labels. These are algebraic dependencies created by repeated pair combinations, not independent majority-vote samples.
+
+No schedule tested reduced the residual dimension below 4,036, created a rank defect, or produced a tractable final Walsh/ISD stage. Artifacts: `tools/lf2_real_corpus.py` and `results/lf2_real_corpus_*.json`.
+
 ### QP-04 final status
 
 The PC/R relation is nontrivial but not a practical active-target verifier. For a full candidate `prf_k`, removing candidate `rho*H` leaves a point that should be a centered 127-bit multiple of `G`. Testing or opening that range requires a generic bounded group search of about `2^63.5` operations. The toy model represents group elements as known integer exponents and therefore gives that opening for free.

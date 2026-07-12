@@ -1,0 +1,133 @@
+{
+  "input": {
+    "files": 44,
+    "rows": 720896,
+    "columns": 4096,
+    "tau": 0.125
+  },
+  "method": {
+    "name": "LF2 all-pairs",
+    "schedule": [
+      17,
+      20,
+      21
+    ],
+    "max_rows": 2000000
+  },
+  "stages": [
+    {
+      "input_rows": 720896,
+      "output_rows": 1982795,
+      "occupied_buckets": 130581,
+      "empty_buckets": 491,
+      "max_bucket": 19,
+      "mean_nonempty_bucket": 5.52068065032432,
+      "y_rate": 0.5005646070319927,
+      "seconds": 7.054591000021901,
+      "level": 1,
+      "block_width": 17,
+      "eliminated_columns": 17,
+      "residual_columns": 4079,
+      "ideal_independent_bias": 0.5625,
+      "optimistic_capacity_bits": 480077.37387118227
+    },
+    {
+      "input_rows": 1982795,
+      "output_rows": 1874870,
+      "occupied_buckets": 889767,
+      "empty_buckets": 158809,
+      "max_bucket": 11,
+      "mean_nonempty_bucket": 2.2284429519188733,
+      "y_rate": 0.5001370761706145,
+      "seconds": 12.795627699990291,
+      "level": 2,
+      "block_width": 20,
+      "eliminated_columns": 37,
+      "residual_columns": 4059,
+      "ideal_independent_bias": 0.31640625,
+      "optimistic_capacity_bits": 137750.78490432008
+    },
+    {
+      "input_rows": 1874870,
+      "output_rows": 837304,
+      "occupied_buckets": 1239642,
+      "empty_buckets": 857510,
+      "max_bucket": 12,
+      "mean_nonempty_bucket": 1.5124285882537054,
+      "y_rate": 0.4994625607903462,
+      "seconds": 7.620729800022673,
+      "level": 3,
+      "block_width": 21,
+      "eliminated_columns": 58,
+      "residual_columns": 4038,
+      "ideal_independent_bias": 0.1001129150390625,
+      "optimistic_capacity_bits": 6063.67194452157
+    }
+  ],
+  "final": {
+    "residual_columns": 4038,
+    "rank_A": 4038,
+    "rank_Ay": 4039,
+    "first_full_rank_A_at": 5319,
+    "first_full_rank_Ay_at": 5319,
+    "y_in_column_span_of_A": false,
+    "rows_scanned": 5319,
+    "unique_rows": 837175,
+    "duplicate_excess_rows": 129,
+    "fingerprint_adjacent_collisions": 129,
+    "exact_duplicate_groups": 6,
+    "exact_duplicate_pairs": 5969,
+    "duplicate_pairs_with_conflicting_y": 0,
+    "max_exact_multiplicity": 109,
+    "duplicate_group_details": [
+      {
+        "multiplicity": 109,
+        "y_zeros": 109,
+        "y_ones": 0,
+        "is_zero_row": true,
+        "row_sha256": "076a27c79e5ace2a3d47f9dd2e83e4ff6ea8872b3c2218f66c92b89b55f36560"
+      },
+      {
+        "multiplicity": 11,
+        "y_zeros": 0,
+        "y_ones": 11,
+        "is_zero_row": false,
+        "row_sha256": "e7f3142dee007d1e5a1904866e2c737d31609aa016d6642ab8d26962b7786fa6"
+      },
+      {
+        "multiplicity": 7,
+        "y_zeros": 0,
+        "y_ones": 7,
+        "is_zero_row": false,
+        "row_sha256": "089b33b936162da6be24198b7aec429381684a667b5ba68f97ab4129bb4924cd"
+      },
+      {
+        "multiplicity": 3,
+        "y_zeros": 3,
+        "y_ones": 0,
+        "is_zero_row": false,
+        "row_sha256": "43953f2db50aaa03e9d5d9e7837986b35b9a71454485dd57fcf8e3fdde41dd76"
+      },
+      {
+        "multiplicity": 3,
+        "y_zeros": 0,
+        "y_ones": 3,
+        "is_zero_row": false,
+        "row_sha256": "5aa882e697847587a46857313873789a9d357ddccffa2e589f4216bec5f66398"
+      },
+      {
+        "multiplicity": 2,
+        "y_zeros": 0,
+        "y_ones": 2,
+        "is_zero_row": false,
+        "row_sha256": "a4cf624a901b70eafae9a8283d41d3fdd5da5852395c119ae04371e9ffa23e75"
+      }
+    ],
+    "y_rate": 0.4994625607903462
+  },
+  "seconds": {
+    "load": 3.586771200003568,
+    "total": 33.662241799989715
+  },
+  "interpretation": "Prefix reduction only; no exhaustive final decoder is attempted."
+}

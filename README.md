@@ -41,6 +41,7 @@ These anchors are deliberately separate. The commit that introduced the target b
 - The first file alone has exact GF(2) rank 4,096; `[A|y]` has rank 4,097.
 - No exact two-row or three-row dependency exists in the first 16,384-row file.
 - Sampled cross-file dependencies are dense, with median weight about 2,051, so their residual bias is negligible.
+- Direct pivot and all-pairs LF2 runs on all 720,896 rows leave at least 4,036 full-rank residual dimensions; no tractable final stage appears.
 
 ### Effective secret dimensions
 
@@ -109,6 +110,7 @@ Python 3.11+ is recommended.
 python -m pip install -r requirements.txt
 python tools/validate_lpn_corpus.py
 python tools/check_finite_prf_candidates.py path/to/ct00_l0_s0_pvac_prf_r_1.jsonl
+python tools/lf2_real_corpus.py path/to/lpn_samples --schedule 15,15,15,15
 python tools/lpn_restricted_ladder.py --model-only
 python tools/lpn_restricted_ladder.py
 python tools/heuristic_ladder.py --is-only --sizes 8,12,16,20,24,28,32
