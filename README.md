@@ -82,6 +82,12 @@ The final source-first batch also closed the remaining cheap edge cases:
 
 See [`research/moonshot-closures.md`](research/moonshot-closures.md) for exact equations, measured outputs, provenance limits, and reproduction paths.
 
+### Public-chain provenance
+
+The canceled-v1 reward was routed through a one-use relay and then used to fund the active-v2 target. A direct historical-parser comparison nevertheless finds different public HFHE key fingerprints and zero shared nonces, tags, or PC points between v1 and active v2. Full Circle/database and target-adjacent program histories expose no challenge secret or verifier.
+
+See [`research/public-chain-provenance.md`](research/public-chain-provenance.md) and [`results/public_chain_provenance.json`](results/public_chain_provenance.json).
+
 ## Comparison with smoke-ui
 
 [`smoke-ui/octra-hfhe-v2-security-assessment`](https://github.com/smoke-ui/octra-hfhe-v2-security-assessment) is a useful independent assessment with strong wire-format, runtime, subgroup, compiler, and methodology controls. Its assessed challenge snapshot is `0d08e96`, before the LPN corpus was added.
@@ -107,6 +113,7 @@ METHODOLOGY.md                  Evidence and reporting standards
 research/reconstruction-audit.md Source, timeline, wire, and algebra audit
 research/final-exhaustion.md     Full corpus and mathematical boundary report
 research/moonshot-closures.md    Final edge-case probes and measured closures
+research/public-chain-provenance.md Public funding, Circle, and reuse audit
 docs/smoke-ui-comparison.md      Comparison with the smoke-ui assessment
 tools/                           Small runnable probes
 results/                         Committed measured JSON outputs
