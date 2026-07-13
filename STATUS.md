@@ -28,6 +28,9 @@ The public update exposes R1 `(A,y)` samples only. It does not expose the PRF ke
 - R endpoint, simple LPN covert channels, and public LPN-producer/secret searches are closed.
 - Public funding provenance links canceled v1 value to active v2, but exact v1/v2 HFHE fingerprints differ and share no nonce, tag, or PC point.
 - Full target-adjacent program and discovered Circle histories expose no target-bound secret or verifier.
+- Current producer/fork delta remains clean; exact artifact paths expose no candidate oracle.
+- Optimistic low-weight-dual decoding needs about `2^301` independent checks even when check generation is free.
+- Circle shared auth/HFHE guards are present at lite-node `e88600f`; official target blobs are monitored daily.
 
 ## Reopen conditions
 
@@ -46,6 +49,7 @@ Reopen only for one of:
 - [`research/final-exhaustion.md`](research/final-exhaustion.md)
 - [`research/moonshot-closures.md`](research/moonshot-closures.md)
 - [`research/public-chain-provenance.md`](research/public-chain-provenance.md)
+- [`research/five-path-continuation.md`](research/five-path-continuation.md)
 - [`docs/smoke-ui-comparison.md`](docs/smoke-ui-comparison.md)
 
 This is a negative result, not an impossibility proof.

@@ -88,6 +88,12 @@ The canceled-v1 reward was routed through a one-use relay and then used to fund 
 
 See [`research/public-chain-provenance.md`](research/public-chain-provenance.md) and [`results/public_chain_provenance.json`](results/public_chain_provenance.json).
 
+### Five-path continuation
+
+A fresh producer/fork delta, exact artifact-path audit, optimistic low-weight-dual bound, official artifact watcher, and Circle read-auth source audit produced no new recovery path. Even assuming dual checks are free, statistical decoding first requires about `2^301` independent checks.
+
+See [`research/five-path-continuation.md`](research/five-path-continuation.md).
+
 ## Comparison with smoke-ui
 
 [`smoke-ui/octra-hfhe-v2-security-assessment`](https://github.com/smoke-ui/octra-hfhe-v2-security-assessment) is a useful independent assessment with strong wire-format, runtime, subgroup, compiler, and methodology controls. Its assessed challenge snapshot is `0d08e96`, before the LPN corpus was added.
@@ -114,6 +120,7 @@ research/reconstruction-audit.md Source, timeline, wire, and algebra audit
 research/final-exhaustion.md     Full corpus and mathematical boundary report
 research/moonshot-closures.md    Final edge-case probes and measured closures
 research/public-chain-provenance.md Public funding, Circle, and reuse audit
+research/five-path-continuation.md Producer, decoding, monitor, and auth audit
 docs/smoke-ui-comparison.md      Comparison with the smoke-ui assessment
 tools/                           Small runnable probes
 results/                         Committed measured JSON outputs

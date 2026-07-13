@@ -1,0 +1,87 @@
+{
+  "model": "random dense A; finding dual checks is free; checks are independent",
+  "m": 720896,
+  "n": 4096,
+  "rho": 0.75,
+  "security_bits": 64,
+  "first_weight_with_one_expected_target_check": 327,
+  "first_optimistic_distinguishing_weight": 355,
+  "rows": [
+    {
+      "weight": 1,
+      "log2_expected_target_checks": -4076.54056838036,
+      "log2_checks_required": 7.301308625612791
+    },
+    {
+      "weight": 2,
+      "log2_expected_target_checks": -4058.0811387627664,
+      "log2_checks_required": 8.131383624170478
+    },
+    {
+      "weight": 3,
+      "log2_expected_target_checks": -4040.2066736468737,
+      "log2_checks_required": 8.961458622728166
+    },
+    {
+      "weight": 4,
+      "log2_expected_target_checks": -4022.7472480333117,
+      "log2_checks_required": 9.791533621285854
+    },
+    {
+      "weight": 8,
+      "log2_expected_target_checks": -3955.623811103979,
+      "log2_checks_required": 13.111833615516604
+    },
+    {
+      "weight": 16,
+      "log2_expected_target_checks": -3828.8994747243423,
+      "log2_checks_required": 19.752433603978105
+    },
+    {
+      "weight": 32,
+      "log2_expected_target_checks": -3590.9624444887622,
+      "log2_checks_required": 33.03363358090111
+    },
+    {
+      "weight": 64,
+      "log2_expected_target_checks": -3146.595554993342,
+      "log2_checks_required": 59.59603353474711
+    },
+    {
+      "weight": 128,
+      "log2_expected_target_checks": -2321.37074203835,
+      "log2_checks_required": 112.72083344243912
+    },
+    {
+      "weight": 256,
+      "log2_expected_target_checks": -798.4471214594032,
+      "log2_checks_required": 218.97043325782315
+    },
+    {
+      "weight": 327,
+      "log2_expected_target_checks": 1.9070317157747922,
+      "log2_checks_required": 277.90575815541894
+    },
+    {
+      "weight": 355,
+      "log2_expected_target_checks": 311.1225693625338,
+      "log2_checks_required": 301.1478581150342
+    },
+    {
+      "weight": 512,
+      "log2_expected_target_checks": 1991.8010089929248,
+      "log2_checks_required": 431.46963288859115
+    },
+    {
+      "weight": 1024,
+      "log2_expected_target_checks": 7060.4031293479875,
+      "log2_checks_required": 856.4680321501272
+    },
+    {
+      "weight": 2000,
+      "log2_expected_target_checks": 15765.871841554283,
+      "log2_checks_required": 1666.6212307424305
+    }
+  ],
+  "verdict": "not practical: even the free-check model first needs about 2^301 checks"
+}
